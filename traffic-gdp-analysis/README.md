@@ -26,7 +26,7 @@ El análisis permitió generar recomendaciones accionables para la priorización
 ## 📊 Evidencias visuales
 
 <p align="center">
-  <img src="traffic-gdp-analysis/images" width="600">
+  <img src="traffic-gdp-analysis/traffic-gdp-analysis/images/Captura de pantalla 13.jpg" width="600">
 </p>
 
 
