@@ -46,5 +46,5 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📬 Contacto
 
-- [LinkedIn:](https://www.linkedin.com/in/ivan-giovanni-ramirez-correa/)  
+- LinkedIn: https://www.linkedin.com/in/ivan-giovanni-ramirez-correa/  
 - Email: giovanni_ramirez_1@yahoo.com
