@@ -21,7 +21,7 @@ Analizar la relación entre congestión vehicular y PIB per cápita en países d
 - Matplotlib, Seaborn
 
 ## 📊 Evidencias visuales
-![Relación tráfico vs PIB](images/grafico_trafico_pib.jpg)
+![Relación tráfico vs PIB](traffic-gdp-analysis/images.jpg)
 
 ## 📌 Conclusión
 El análisis permitió generar recomendaciones accionables para la priorización de ciudades y la toma de decisiones en políticas de movilidad basadas en evidencia.
