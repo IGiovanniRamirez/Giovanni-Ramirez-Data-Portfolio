@@ -25,7 +25,10 @@ El análisis permitió generar recomendaciones accionables para la priorización
 
 ## 📊 Evidencias visuales
 
-<img width="662" height="421" alt="image" src=" https://github.com/IGiovanniRamirez/Giovanni-Ramirez-Data-Portfolio/blob/main/traffic-gdp-analysis/traffic-gdp-analysis/images/Captura%20de%20pantalla%201.jpg" />
+<img width="662" height="421" alt="image" src="https://github.com/user-attachments/assets/1a2b7698-e579-444f-a8d3-4b4e630c0271" />
+<img width="684" height="454" alt="image" src="https://github.com/user-attachments/assets/f99ee248-cec5-4dd5-8895-75009b1806f8" />
+<img width="641" height="477" alt="image" src="https://github.com/user-attachments/assets/b0aed102-518c-4756-9bb1-d31c726e7fd0" />
+<img width="698" height="415" alt="image" src="https://github.com/user-attachments/assets/1a7affd4-59f0-4eb1-bf9a-a130cd3d5e9a" />
 
 
 
