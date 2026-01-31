@@ -28,7 +28,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Identificación de patrones, outliers e insights de negocio
   
 🛠️ **Tecnologías:** Python (Pandas, Seaborn, Matplotlib), Jupyter Notebook
-🔗 [Ver proyecto](./Project_ConnectaTel)
+🔗 [Ver proyecto](./Project_ConnectaTel )
 
 ---
 
