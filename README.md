@@ -44,7 +44,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 ### 3️⃣ Análisis de Uso de Clientes – ConnectaTel
-**TripleTen Bootcamp | 2025**
+**TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
 - Segmentación de usuarios por nivel de consumo y edad
