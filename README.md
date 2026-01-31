@@ -20,7 +20,19 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Análisis de Tráfico Urbano y PIB per cápita  
+### 1️⃣ Análisis de Uso de Clientes – ConnectaTel
+**TripleTen Bootcamp | 2026**
+
+- Análisis exploratorio del comportamiento de uso de clientes
+- Segmentación de usuarios por nivel de consumo y edad
+- Identificación de patrones, outliers e insights de negocio
+  
+🛠️ **Tecnologías:** Python (Pandas, Seaborn, Matplotlib), Jupyter Notebook
+🔗 [Ver proyecto](./Project_ConnectaTel)
+
+---
+
+### 2️⃣ Análisis de Tráfico Urbano y PIB per cápita  
 **TripleTen Bootcamp | 2025**
 
 - Análisis exploratorio de datos de tráfico y economía en LATAM
@@ -32,7 +44,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 2️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 3️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
@@ -41,17 +53,6 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 🛠️ **Tecnologías:** SQL  
 🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
-
----
-### 3️⃣ Análisis de Uso de Clientes – ConnectaTel
-**TripleTen Bootcamp | 2026**
-
-- Análisis exploratorio del comportamiento de uso de clientes
-- Segmentación de usuarios por nivel de consumo y edad
-- Identificación de patrones, outliers e insights de negocio
-  
-🛠️ **Tecnologías:** Python (Pandas, Seaborn, Matplotlib), Jupyter Notebook
-🔗 [Ver proyecto](./Project_ConnectaTel)
 
 ---
 
