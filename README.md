@@ -50,8 +50,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Identificación de patrones, anomalías y oportunidades
 - Recomendaciones accionables para políticas de movilidad
 
-🛠️ **Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn  
-🔗 [Ver proyecto](./traffic-gdp-analysis)
+🛠️ **Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn 🔗 [Ver proyecto](./traffic-gdp-analysis)
 
 ---
 
@@ -62,8 +61,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Identificación del paso con mayor pérdida de usuarios
 - Segmentación de retención por país y tiempo
 
-🛠️ **Tecnologías:** SQL  
-🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
+🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
 
 ---
 
