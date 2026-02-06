@@ -120,6 +120,8 @@ Se aplicaron diferentes métodos según el tipo de variable:
 
 #### Requisitos
 Instalar dependencias:
+```bash
+pip install pandas numpy seaborn matplotlib scipy
 
 ---
 
