@@ -121,6 +121,8 @@ Se aplicaron diferentes métodos según el tipo de variable:
 #### Requisitos
 Instalar dependencias:
 
+---
+
 ## 🧑‍💻 Autor
 
 Proyecto desarrollado como parte de un proceso de formación en **Data Analytics**, enfocado en análisis exploratorio, calidad de datos y generación de insights de negocio.
