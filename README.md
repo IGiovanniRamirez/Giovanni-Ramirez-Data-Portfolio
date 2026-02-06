@@ -20,7 +20,18 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 1️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+**TripleTen Bootcamp | 2026**
+
+- Análisis correlacional de comportamiento del cliente
+- Identificación de factores asociados al ingreso anual
+- Evaluación de engagement, suscripción y segmentación de usuarios
+
+🛠️ **Tecnologías:** Python, Pandas, NumPy, Seaborn, Matplotlib, SciPy
+🔗 [Ver proyecto](./Project-NovaRetail)
+
+---
+### 2️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
@@ -32,7 +43,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 2️⃣ Análisis de Tráfico Urbano y PIB per cápita  
+### 3️⃣ Análisis de Tráfico Urbano y PIB per cápita  
 **TripleTen Bootcamp | 2025**
 
 - Análisis exploratorio de datos de tráfico y economía en LATAM
@@ -44,7 +55,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 3️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 4️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
