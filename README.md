@@ -29,7 +29,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Generación de recomendaciones accionables basadas en significancia estadística
 
 🛠️ **Tecnologías:** Python, Pandas, SciPy, Statsmodels, Seaborn
-🔗 [Ver proyecto](./Project-NovaRetail)
+🔗 [Ver proyecto](./Project_Landing_Experiment%20A-B)
 
 ### 2️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
