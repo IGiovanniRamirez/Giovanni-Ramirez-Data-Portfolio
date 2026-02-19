@@ -94,10 +94,14 @@ El proyecto sigue un flujo analítico estructurado:
 
 ---
 
-### 🔹 Opción 2: Entorno Local (Jupyter Notebook)
+### 🔹 Opción 2: Ejecutar Localmente
 
-1. Clona el repositorio:
+---
 
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+## 🧑‍💻 Autor
 
+Proyecto desarrollado como parte de un proceso de formación en **Data Analytics**, enfocado en análisis exploratorio, calidad de datos y generación de insights de negocio.
+
+---
+
+📬 *Sugerencias y comentarios son bienvenidos.*
