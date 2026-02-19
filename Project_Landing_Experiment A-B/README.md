@@ -73,12 +73,11 @@ El proyecto sigue un flujo analítico estructurado:
 
 ## 🛠️ Tecnologías Utilizadas
 
-- Python 3  
+- Python  
 - Pandas  
-- NumPy  
+- Seaborn 
 - SciPy  
 - Statsmodels  
-- Matplotlib  
 - Jupyter Notebook / Google Colab  
 
 ---
