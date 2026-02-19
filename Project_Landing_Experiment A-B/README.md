@@ -50,6 +50,7 @@ El proyecto sigue un flujo analítico estructurado:
 ### 3️⃣ Análisis de gasto promedio
 - Comparación de medias entre grupos
 - Aplicación de **prueba t de Student**
+- Evaluación de significancia estadística
 
 ### 4️⃣ Análisis de variables categóricas
 - Tablas de contingencia
