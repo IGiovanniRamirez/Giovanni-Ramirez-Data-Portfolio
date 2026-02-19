@@ -49,8 +49,7 @@ El proyecto sigue un flujo analítico estructurado:
 
 ### 3️⃣ Análisis de gasto promedio
 - Comparación de medias entre grupos
-- Prueba de igualdad de varianzas (Levene)
-- Aplicación de **prueba t de Student (Welch cuando corresponde)**
+- Aplicación de **prueba t de Student**
 
 ### 4️⃣ Análisis de variables categóricas
 - Tablas de contingencia
