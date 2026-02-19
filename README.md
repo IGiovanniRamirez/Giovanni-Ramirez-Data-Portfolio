@@ -20,7 +20,18 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+### 1️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
+**TripleTen Bootcamp | 2026**
+
+- Análisis comparativo de tasa de conversión entre versión A y B
+- Evaluación de diferencia en gasto promedio con pruebas t
+- Validación de hipótesis mediante prueba Z y Chi-cuadrado
+- Generación de recomendaciones accionables basadas en significancia estadística
+
+🛠️ **Tecnologías:** Python, Pandas, SciPy, Statsmodels, Seaborn
+🔗 [Ver proyecto](./Project-NovaRetail)
+
+### 2️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
 - Análisis correlacional de comportamiento del cliente
@@ -31,7 +42,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 🔗 [Ver proyecto](./Project-NovaRetail)
 
 ---
-### 2️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 3️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
@@ -43,7 +54,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 3️⃣ Análisis de Tráfico Urbano y PIB per cápita  
+### 4️⃣ Análisis de Tráfico Urbano y PIB per cápita  
 **TripleTen Bootcamp | 2025**
 
 - Análisis exploratorio de datos de tráfico y economía en LATAM
@@ -54,7 +65,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 4️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 5️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
