@@ -87,6 +87,16 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
+7️⃣ Análisis del Desempeño Financiero – Adventure Works
+TripleTen Bootcamp | 2026
+Análisis de ingresos, costos y beneficio por país
+Evaluación de rentabilidad mediante margen y ROI
+Identificación de mercados más eficientes y optimización de inversión en marketing
+🛠️ Tecnologías: SQL  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
+
+
+---
+
 ## 📬 Contacto
 
 - LinkedIn: https://www.linkedin.com/in/ivan-giovanni-ramirez-correa/  
