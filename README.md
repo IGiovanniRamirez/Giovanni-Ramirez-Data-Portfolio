@@ -97,6 +97,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Análisis de ingresos, costos y beneficio por país
 - Evaluación de rentabilidad mediante margen y ROI
 - Identificación de mercados más eficientes y optimización de inversión en marketing
+
 🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./Análisis%20del%20desempeño%20financiero%20)
 
 ---
