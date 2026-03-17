@@ -20,8 +20,6 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
----
-
 ### 1️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
