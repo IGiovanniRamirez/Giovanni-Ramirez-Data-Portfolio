@@ -20,6 +20,8 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
+---
+
 ### 1️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
@@ -30,6 +32,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions)
 🔗 [Ver proyecto](./Dashboard%20desempeño%20comercial)
 
+---
 
 ### 2️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
@@ -42,6 +45,8 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 🛠️ **Tecnologías:** Python, Pandas, SciPy, Statsmodels, Seaborn
 🔗 [Ver proyecto](./Project_Landing_Experiment%20A-B)
 
+---
+
 ### 3️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
@@ -53,6 +58,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 🔗 [Ver proyecto](./Project-NovaRetail)
 
 ---
+
 ### 4️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
@@ -87,13 +93,13 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-7️⃣ Análisis del Desempeño Financiero – Adventure Works
-TripleTen Bootcamp | 2026
-Análisis de ingresos, costos y beneficio por país
-Evaluación de rentabilidad mediante margen y ROI
-Identificación de mercados más eficientes y optimización de inversión en marketing
-🛠️ Tecnologías: SQL  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
+### 7️⃣ Análisis del Desempeño Financiero – Adventure Works
+**TripleTen Bootcamp | 2025**
 
+- Análisis de ingresos, costos y beneficio por país
+- Evaluación de rentabilidad mediante margen y ROI
+- Identificación de mercados más eficientes y optimización de inversión en marketing
+🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./Análisis%20del%20desempeño%20financiero%20)
 
 ---
 
