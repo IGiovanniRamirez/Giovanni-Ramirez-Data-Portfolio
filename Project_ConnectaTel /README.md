@@ -129,7 +129,7 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 * Existen oportunidades claras para **diseñar planes diferenciados** basados en el comportamiento real de los clientes.
 
 ---
-# 👤 Autor
+# 🧑‍💻 Autor
 
 **Iván Giovanni Ramírez Correa**
 
@@ -138,3 +138,4 @@ Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
 ---
 
 📬 *Sugerencias y comentarios son bienvenidos.*
+
