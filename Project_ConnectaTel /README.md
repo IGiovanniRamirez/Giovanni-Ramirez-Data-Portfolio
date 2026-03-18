@@ -106,6 +106,8 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 #### Opción 1:
 
 1. Abre el notebook directamente desde GitHub en este repositorio dando click en el link del archivo `.ipynb`.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando click en el icono de descargar <img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+.
 
 #### Opción 2:
   
@@ -114,12 +116,6 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 3. Selecciona **File → Open notebook → GitHub**.
 4. Pega la URL del repositorio o del notebook y ábrelo.
 
-#### Para cualquiera de las opciones 1 o 2:
-   
-1. Ejecuta las celdas **en el orden en que aparecen**, ya que cada etapa depende de la anterior.
-2. No omitas las secciones de limpieza de datos, ya que afectan directamente los resultados del análisis y la segmentación.
-3. Al finalizar, revisa la sección de **Insights Ejecutivos**, donde se resumen los hallazgos principales.
-   
 > Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
 
 ---
