@@ -149,3 +149,6 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 
 Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
 
+---
+
+📬 *Sugerencias y comentarios son bienvenidos.*
