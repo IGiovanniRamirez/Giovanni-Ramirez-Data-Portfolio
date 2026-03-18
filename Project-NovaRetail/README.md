@@ -127,7 +127,7 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 > Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
 
 ---
-# 👤 Autor
+# 🧑‍💻 Autor
 
 **Iván Giovanni Ramírez Correa**
 
@@ -136,3 +136,4 @@ Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
 ---
 
 📬 *Sugerencias y comentarios son bienvenidos.*
+
