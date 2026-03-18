@@ -221,7 +221,7 @@ El dashboard permite:
 - Esto facilita la toma de decisiones estratégicas basadas en datos.
 
 ---
-# 👤 Autor
+# 🧑‍💻 Autor
 
 **Iván Giovanni Ramírez Correa**
 
@@ -230,3 +230,4 @@ Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
 ---
 
 📬 *Sugerencias y comentarios son bienvenidos.*
+
