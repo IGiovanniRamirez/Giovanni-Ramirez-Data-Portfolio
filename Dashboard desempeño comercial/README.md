@@ -159,11 +159,33 @@ Esto permite traducir los datos en **insights estratégicos para la toma de deci
 
 ---
 
-# ▶️ Cómo ejecutar o visualizar el proyecto
+## ▶️ Cómo ejecutar el notebook
+
+El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
+
+### 🔁 Guía breve de reproducción 
+
+#### Opción 1:
+
+1. Abre el notebook directamente desde GitHub en este repositorio dando clic en el link del archivo `.ipynb`.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando clic en el icono de descargar.
+<img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+
+
+#### Opción 2:
+  
+1. Despues de abrir el archivo `.ipynb` haz clic en el botón **“Open in Colab”** (si está disponible) o copia la URL del notebook.
+2. Ve a [https://colab.research.google.com](https://colab.research.google.com).
+3. Selecciona **File → Open notebook → GitHub**.
+4. Pega la URL del repositorio o del notebook y ábrelo.
+
+> Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
+
+---
 
 Este repositorio incluye:
 
-- 📓 **Notebook de Jupyter** con la documentación del proyecto
+- 📓 **Notebook (`.ipynb`)** con la documentación del proyecto
 - 📊 **Archivo Power BI (.pbix)** con el dashboard
 
 El notebook funciona como **documentación del proceso de análisis**, no como código ejecutable.
