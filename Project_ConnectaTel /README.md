@@ -106,8 +106,9 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 #### Opción 1:
 
 1. Abre el notebook directamente desde GitHub en este repositorio dando click en el link del archivo `.ipynb`.
-2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando click en el icono de descargar <img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
-.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando click en el icono de descargar.
+<img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+
 
 #### Opción 2:
   
