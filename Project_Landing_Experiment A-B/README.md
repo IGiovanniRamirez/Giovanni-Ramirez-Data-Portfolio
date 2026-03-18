@@ -82,19 +82,28 @@ El proyecto sigue un flujo analítico estructurado:
 
 ---
 
-## ▶️ Cómo Ejecutar el Notebook
+## ▶️ Cómo ejecutar el notebook
 
-### 🔹 Opción 1: Google Colab (Recomendado)
+El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
 
-1. Descarga el archivo `.ipynb` desde este repositorio.
-2. Ingresa a: https://colab.research.google.com/
-3. Haz clic en **“Subir”** y selecciona el notebook.
-4. Carga el archivo `.csv` en el entorno de Colab.
-5. Ejecuta las celdas en orden (Shift + Enter).
+### 🔁 Guía breve de reproducción 
 
----
+#### Opción 1:
 
-### 🔹 Opción 2: Ejecutar Localmente
+1. Abre el notebook directamente desde GitHub en este repositorio dando clic en el link del archivo `.ipynb`.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando clic en el icono de descargar.
+<img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+
+
+#### Opción 2:
+  
+1. Despues de abrir el archivo `.ipynb` haz clic en el botón **“Open in Colab”** (si está disponible).
+2. Si elegiste la opcion de descargar el archivo ve a 👉 https://colab.research.google.com/.
+3. Seleccionar **Upload Notebook**.
+4. Subir el archivo `.ipynb`
+5. Cargar el dataset en la ruta correspondiente.
+
+> Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
 
 ---
 
