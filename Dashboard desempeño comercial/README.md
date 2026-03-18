@@ -159,6 +159,15 @@ Esto permite traducir los datos en **insights estratégicos para la toma de deci
 
 ---
 
+Este repositorio incluye:
+
+- 📓 **Notebook (`.ipynb`)** con la documentación del proyecto
+- 📊 **Archivo Power BI (.pbix)** con el dashboard
+
+El notebook funciona como **documentación del proceso de análisis**, no como código ejecutable.
+
+---
+
 ## ▶️ Cómo ejecutar el notebook
 
 El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
@@ -180,15 +189,6 @@ El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que p
 4. Pega la URL del repositorio o del notebook y ábrelo.
 
 > Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
-
----
-
-Este repositorio incluye:
-
-- 📓 **Notebook (`.ipynb`)** con la documentación del proyecto
-- 📊 **Archivo Power BI (.pbix)** con el dashboard
-
-El notebook funciona como **documentación del proceso de análisis**, no como código ejecutable.
 
 ---
 
