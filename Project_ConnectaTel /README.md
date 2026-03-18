@@ -101,28 +101,26 @@ El proyecto sigue un flujo de trabajo estructurado y reproducible:
 
 El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
 
-### Opción recomendada: Google Colab
+### 🔁 Guía breve de reproducción 
 
-1. Abre el notebook directamente desde GitHub.
-2. Haz clic en el botón **“Open in Colab”** (si está disponible) o copia la URL del notebook.
-3. Ve a [https://colab.research.google.com](https://colab.research.google.com).
-4. Selecciona **File → Open notebook → GitHub**.
-5. Pega la URL del repositorio o del notebook y ábrelo.
-6. Ejecuta las celdas en orden secuencial.
+#### Opción 1:
 
+1. Abre el notebook directamente desde GitHub en este repositorio dando click en el link del archivo `.ipynb`.
+
+#### Opción 2:
+  
+1. Despues de abrir el archivo `.ipynb` haz clic en el botón **“Open in Colab”** (si está disponible) o copia la URL del notebook.
+2. Ve a [https://colab.research.google.com](https://colab.research.google.com).
+3. Selecciona **File → Open notebook → GitHub**.
+4. Pega la URL del repositorio o del notebook y ábrelo.
+
+#### Para cualquiera de las opciones 1 o 2:
+   
+1. Ejecuta las celdas **en el orden en que aparecen**, ya que cada etapa depende de la anterior.
+2. No omitas las secciones de limpieza de datos, ya que afectan directamente los resultados del análisis y la segmentación.
+3. Al finalizar, revisa la sección de **Insights Ejecutivos**, donde se resumen los hallazgos principales.
+   
 > Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
-
----
-
-## 🔁 Guía breve de reproducción
-
-Para reproducir correctamente el análisis:
-
-1. Abre el notebook desde GitHub o Google Colab.
-2. Verifica que las rutas de los archivos CSV coincidan con la estructura del repositorio.
-3. Ejecuta las celdas **en el orden en que aparecen**, ya que cada etapa depende de la anterior.
-4. No omitas las secciones de limpieza de datos, ya que afectan directamente los resultados del análisis y la segmentación.
-5. Al finalizar, revisa la sección de **Insights Ejecutivos**, donde se resumen los hallazgos principales.
 
 ---
 
