@@ -1,46 +1,132 @@
-# Análisis de Tráfico Urbano y PIB per cápita
-**TripleTen Bootcamp | 2025**
+# 🚦 Movilidad Urbana y Productividad Económica en LATAM
 
-## 🎯 Objetivo
-Analizar la relación entre congestión vehicular y PIB per cápita en países de Latinoamérica para identificar patrones, anomalías y oportunidades de mejora en políticas de movilidad urbana.
+## 📌 Objetivo del proyecto
 
-## 🧠 Metodología
-- Limpieza y preparación de datasets de tráfico y economía
-- Análisis exploratorio de datos (EDA)
-- Visualización de relaciones y detección de outliers
-- Interpretación de resultados desde una perspectiva de negocio
+El objetivo de este proyecto es analizar la relación entre la **movilidad urbana** y la **productividad económica** en principales ciudades de Latinoamérica, con el fin de identificar patrones que permitan **priorizar inversiones en infraestructura de transporte**.
 
-## 📈 Insights clave
-- Identificación de correlaciones entre congestión y desempeño económico
-- Detección de ciudades con comportamiento atípico
-- Priorización de ciudades para análisis profundo
+A través del análisis de datos, se busca responder preguntas como:
+- ¿Las ciudades más productivas tienen mayor congestión?
+- ¿El tráfico impacta negativamente el desempeño económico?
+- ¿Qué ciudades requieren intervención prioritaria?
 
-## 🛠️ Tecnologías
+---
+
+## 📊 Datasets utilizados
+
+Se trabajó con dos fuentes principales de datos:
+
+### 1. 🚗 TomTom Traffic Index
+Contiene indicadores de tráfico urbano a nivel ciudad, incluyendo:
+- Índice de tráfico en tiempo real
+- Tiempo adicional por congestión (`jams_delay`)
+- Número y longitud de embotellamientos
+- Tiempo de viaje actual vs histórico
+
+### 2. 📈 OECD Cities / Datos económicos urbanos
+Incluye indicadores económicos y sociales por ciudad:
+- PIB per cápita (`city_gdp_capita`)
+- Tasa de desempleo (`unemployment_pct`)
+- Contaminación del aire (`PM2.5`)
+- Población
+
+---
+
+## 🧩 Etapas del análisis
+
+El proyecto se desarrolló en las siguientes fases:
+
+### 1. 🔍 Exploración de datos
+- Carga de datasets
+- Revisión de estructura (`.info()`, `.head()`)
+- Identificación de tipos de datos incorrectos
+- Detección de posibles inconsistencias
+
+---
+
+### 2. 🧹 Limpieza y preparación
+- Conversión de tipos de datos (fechas y variables numéricas)
+- Estandarización de nombres de columnas (snake_case)
+- Normalización de nombres de ciudades
+- Revisión de valores atípicos (ej. retrasos negativos)
+
+---
+
+### 3. 🔗 Integración de datasets
+- Unión de datasets por ciudad
+- Validación de consistencia entre fuentes
+- Creación de dataset consolidado para análisis
+
+---
+
+### 4. 📊 Análisis exploratorio (EDA)
+- Análisis de distribución de variables
+- Comparación entre ciudades
+- Identificación de patrones entre:
+  - Tráfico
+  - PIB per cápita
+- Detección de outliers y anomalías
+
+---
+
+### 5. 📈 Análisis de relaciones
+- Evaluación de correlaciones entre variables clave
+- Interpretación de la relación entre congestión y productividad
+- Segmentación de ciudades según desempeño
+
+---
+
+## 🎯 Hallazgos, conclusiones y recomendaciones
+
+### 🔍 Hallazgos clave
+
+- Existe una **correlación débil entre el tráfico y el PIB per cápita**, lo que indica que la congestión no depende directamente del nivel de riqueza de una ciudad.
+- Las ciudades más grandes tienden a presentar **mayores niveles de congestión**, independientemente de su nivel económico.
+- Se identificaron **outliers importantes**, como:
+  - Ciudades con congestión extremadamente alta (ej. megaciudades)
+  - Posibles inconsistencias en datos económicos (ej. valores atípicos de PIB)
+
+---
+
+### 🧠 Conclusiones
+
+- La congestión urbana en Latinoamérica está más relacionada con **factores estructurales** (crecimiento urbano, densidad, planificación) que con el nivel de desarrollo económico.
+- Ciudades con alto PIB no necesariamente tienen mejor movilidad, lo que evidencia **ineficiencias en infraestructura y planificación urbana**.
+- La movilidad urbana representa un **factor crítico para la productividad**, especialmente en ciudades altamente congestionadas.
+
+---
+
+### 💡 Recomendaciones (Insights accionables)
+
+#### 📍 Priorización de ciudades
+- Enfocar inversiones en **megaciudades con alta congestión**, donde el impacto económico de la mejora es mayor.
+- Identificar ciudades intermedias con crecimiento acelerado para **intervención preventiva**.
+
+#### 🚧 Inversión en infraestructura
+- Fortalecer sistemas de transporte público masivo
+- Implementar soluciones de movilidad inteligente (gestión de tráfico en tiempo real)
+- Promover alternativas sostenibles (bicicletas, movilidad eléctrica)
+
+#### 🔍 Mejora de calidad de datos
+- Validar fuentes con valores atípicos o inconsistentes
+- Estandarizar indicadores entre países y ciudades
+- Incorporar variables adicionales (densidad, uso de suelo, transporte público)
+
+#### 📊 Análisis futuros
+- Evaluar tráfico per cápita
+- Analizar impacto ambiental (relación tráfico – contaminación)
+- Incorporar análisis temporal para detectar tendencias
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
 - Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-- ## 📌 Conclusión
-El análisis permitió generar recomendaciones accionables para la priorización de ciudades y la toma de decisiones en políticas de movilidad basadas en evidencia.
+---
 
-## 📊 Evidencias visuales
-
-<img width="662" height="421" alt="image" src="https://github.com/user-attachments/assets/1a2b7698-e579-444f-a8d3-4b4e630c0271" />
-<img width="684" height="454" alt="image" src="https://github.com/user-attachments/assets/f99ee248-cec5-4dd5-8895-75009b1806f8" />
-<img width="641" height="477" alt="image" src="https://github.com/user-attachments/assets/b0aed102-518c-4756-9bb1-d31c726e7fd0" />
-<img width="698" height="415" alt="image" src="https://github.com/user-attachments/assets/1a7affd4-59f0-4eb1-bf9a-a130cd3d5e9a" />
-<img width="705" height="442" alt="image" src="https://github.com/user-attachments/assets/2b2dce3e-0e1e-4890-b481-7f594ccf53ad" />
-<img width="700" height="478" alt="image" src="https://github.com/user-attachments/assets/067ad498-950b-4d9d-94b7-f559c200d52b" />
-<img width="708" height="407" alt="image" src="https://github.com/user-attachments/assets/97d40525-58f4-4e05-b272-bf41a78a6645" />
-<img width="703" height="444" alt="image" src="https://github.com/user-attachments/assets/d6d41d32-d813-4c9a-92f3-8cd45c56aaab" />
-<img width="718" height="444" alt="image" src="https://github.com/user-attachments/assets/79623be1-1158-4dfc-8475-2919e4c4313b" />
-<img width="707" height="473" alt="image" src="https://github.com/user-attachments/assets/6d34134e-94b2-46d7-996b-f492ea34f8e9" />
-<img width="697" height="478" alt="image" src="https://github.com/user-attachments/assets/268f2446-0311-4965-908c-e25d604d81c6" />
-<img width="707" height="449" alt="image" src="https://github.com/user-attachments/assets/4c50f488-f622-40b8-b5a7-eaafd45f59c4" />
-<img width="362" height="319" alt="image" src="https://github.com/user-attachments/assets/45311e8d-ef79-4310-9b4f-8b40e8670440" />
-<img width="719" height="409" alt="image" src="https://github.com/user-attachments/assets/2781f04d-a61e-46bc-8cf0-6c2e8327d7f4" />
-<img width="702" height="475" alt="image" src="https://github.com/user-attachments/assets/74adfdf4-47d2-4338-bdf4-227e8e49f179" />
-<img width="700" height="215" alt="image" src="https://github.com/user-attachments/assets/2a5f9d3a-1c69-4ec9-b7f2-8397c95065d4" />
-<img width="1173" height="450" alt="image" src="https://github.com/user-attachments/assets/85f7f44c-5709-4442-a7bf-a4f194e20f66" />
-<img width="1187" height="217" alt="image" src="https://github.com/user-attachments/assets/fed50161-7e3f-4ce6-9e5b-f1c2d3e8f810" />
-
+## 📎 Estructura del proyecto
