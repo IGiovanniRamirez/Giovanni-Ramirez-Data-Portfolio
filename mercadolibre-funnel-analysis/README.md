@@ -1,35 +1,137 @@
-# Análisis de Embudo y Retención – MercadoLibre
-**TripleTen Bootcamp | 2025**
+# 🛒 Análisis de embudo y retención para MercadoLibre
+
+## 📌 Descripción del proyecto
+Este proyecto tiene como objetivo analizar el comportamiento de los usuarios dentro de la plataforma de MercadoLibre, enfocándose en dos aspectos clave del negocio:
+
+- El **embudo de conversión**, para identificar en qué etapas se pierden usuarios.
+- La **retención de usuarios**, para evaluar qué tan bien se mantienen activos a lo largo del tiempo.
+
+A partir de este análisis, se generan **insights accionables** orientados a mejorar la conversión y la retención.
+
+---
 
 ## 🎯 Objetivo
-Analizar el embudo de usuarios y la retención por país y tiempo para identificar el paso crítico con mayor pérdida de usuarios.
 
-## 🧠 Metodología
-- Análisis del embudo end-to-end
-- Cálculo de métricas de conversión
-- Segmentación por país y cohortes de tiempo
-- Evaluación de patrones de retención
+Analizar el recorrido del usuario desde su primera visita hasta la compra, así como su comportamiento posterior, para responder:
 
-## 📈 Insights clave
-- Identificación del paso con mayor fricción del embudo
-- Diferencias significativas de retención entre países
-- Recomendaciones para reducir fricción y mejorar retención
+- ¿En qué etapa del embudo se pierde la mayor cantidad de usuarios?
+- ¿Cómo varía la conversión entre etapas?
+- ¿Cómo se comporta la retención de usuarios en el tiempo?
+- ¿Existen diferencias relevantes por país?
 
-## 🛠️ Tecnologías
-- SQL (Standard SQL)
+---
 
-- ## 📌 Conclusión
-El análisis permitió proponer mejoras específicas por país y etapa del embudo para optimizar la experiencia del usuario.
+## 🗂️ Datasets utilizados
 
-## 📊 Evidencias
+### 1. `mercadolibre_funnel`
+Contiene los eventos del usuario dentro del embudo de conversión.
 
-<img width="1352" height="574" alt="image" src="https://github.com/user-attachments/assets/562914d9-d598-4990-a6a4-c2a0bcbf177a" />
-<img width="1349" height="583" alt="image" src="https://github.com/user-attachments/assets/95f63a3a-a1c8-4e4b-a712-348d0a5c0781" />
-<img width="1349" height="587" alt="image" src="https://github.com/user-attachments/assets/382ba759-3244-4e06-bb6e-cfd9ca6ba30c" />
-<img width="1357" height="588" alt="image" src="https://github.com/user-attachments/assets/f528f1ad-168a-48a8-9dc6-498c9f89860d" />
-<img width="1356" height="584" alt="image" src="https://github.com/user-attachments/assets/250db195-08dd-4d51-ad2d-a8fc972de129" />
-<img width="1356" height="585" alt="image" src="https://github.com/user-attachments/assets/9b26837f-2bf4-4a3a-a32f-8e32c1dd641a" />
-<img width="1362" height="580" alt="image" src="https://github.com/user-attachments/assets/35c01eaa-331c-413b-bb94-9c9df2500978" />
-<img width="1344" height="588" alt="image" src="https://github.com/user-attachments/assets/91245a23-651e-44a6-9c76-7e7e95482b4a" />
-<img width="962" height="292" alt="image" src="https://github.com/user-attachments/assets/cf4f71b5-48b4-4d76-92f2-aec00dea7462" />
-<img width="464" height="225" alt="image" src="https://github.com/user-attachments/assets/70dfd2cc-d5b6-464d-9866-400beae52303" />
+**Columnas clave:**
+- `user_id`: identificador único del usuario
+- `event_name`: tipo de evento (first_visit, select_item, add_to_cart, etc.)
+- `event_date`: fecha del evento
+- `country`: país del usuario
+- `device_category`: tipo de dispositivo
+- `referral_source`: fuente de tráfico
+
+---
+
+### 2. `mercadolibre_retention`
+Contiene información sobre la actividad de los usuarios después del registro.
+
+**Columnas clave:**
+- `user_id`: identificador del usuario
+- `signup_date`: fecha de registro
+- `activity_date`: fecha de actividad
+- `day_after_signup`: días desde el registro
+- `active`: indicador de actividad (1 = activo)
+- `country`: país del usuario
+
+---
+
+## 🔄 Etapas del análisis
+
+### 1. Exploración de datos
+- Revisión de estructura de tablas
+- Identificación de variables clave
+- Validación de eventos del embudo
+
+---
+
+### 2. Construcción del embudo de conversión
+- Definición del flujo completo:
+  - first_visit → select_item → add_to_cart → begin_checkout → add_shipping_info → add_payment_info → purchase
+- Conteo de usuarios únicos por etapa usando SQL (CTEs)
+
+---
+
+### 3. Cálculo de conversiones
+- Cálculo de tasas de conversión por etapa
+- Identificación de puntos críticos de abandono
+
+---
+
+### 4. Segmentación del embudo
+- Análisis de conversiones por país (`country`)
+- Identificación de variaciones geográficas en el comportamiento del usuario
+
+---
+
+### 5. Análisis de retención
+- Cálculo de usuarios activos acumulados en:
+  - Día 7 (D7)
+  - Día 14 (D14)
+  - Día 21 (D21)
+  - Día 28 (D28)
+
+---
+
+### 6. Retención por país
+- Comparación de tasas de retención entre países
+- Identificación de mercados con mejor y peor desempeño
+
+---
+
+### 7. Análisis de cohortes
+- Creación de cohortes mensuales (YYYY-MM)
+- Evaluación de retención por cohorte en D7, D14, D21 y D28
+- Identificación de tendencias en el tiempo
+
+---
+
+## 📊 Principales hallazgos
+
+- La mayor caída del embudo ocurre entre **selección de producto y añadir al carrito**
+- Existen diferencias significativas en conversión entre países
+- La retención disminuye progresivamente con el tiempo
+- Algunos países presentan mejor retención inicial, pero caída acelerada en el largo plazo
+
+---
+
+## 🚀 Recomendaciones
+
+- Optimizar la página de producto para reducir fricción
+- Implementar estrategias de confianza (reseñas, garantías, costos claros)
+- Mejorar el proceso de checkout
+- Aplicar estrategias de retención (incentivos, notificaciones, recompensas)
+
+---
+
+## 🧰 Tecnologías utilizadas
+
+- SQL
+- Google Colab
+- Análisis de datos
+- Modelado de métricas de producto
+
+---
+
+## 📈 Valor del proyecto
+
+Este proyecto simula un caso real de análisis de producto, permitiendo:
+
+- Comprender el comportamiento del usuario en plataformas digitales
+- Identificar oportunidades de mejora basadas en datos
+- Proponer soluciones accionables con impacto en negocio
+
+---
