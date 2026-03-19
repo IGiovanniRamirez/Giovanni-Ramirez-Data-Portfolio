@@ -85,7 +85,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 - Análisis del embudo end-to-end
 - Identificación del paso con mayor pérdida de usuarios
-- Segmentación de retención por país y tiempo
+- Evaluación de retención por cohortes (D7, D14, D21, D28) y segmentación por país
 
 🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
 
