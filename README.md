@@ -69,12 +69,12 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 5️⃣ Análisis de Tráfico Urbano y PIB per cápita  
+### 5️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
-- Análisis exploratorio de datos de tráfico y economía en LATAM
-- Identificación de patrones, anomalías y oportunidades
-- Recomendaciones accionables para políticas de movilidad
+- Análisis de la relación entre congestión urbana y PIB per cápita en ciudades latinoamericanas
+- Identificación de patrones, outliers y ciudades con mayor impacto económico por tráfico
+- Generación de recomendaciones para priorización de inversión en infraestructura y movilidad inteligente
 
 🛠️ **Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn 🔗 [Ver proyecto](./traffic-gdp-analysis)
 
