@@ -20,7 +20,20 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
+### 1️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
+**TripleTen Bootcamp | 2026**
+
+- Análisis del desempeño comercial inmobiliario a nivel de ventas, clientes y propiedades
+- Evaluación de ingresos, volumen de ventas, comisiones y crecimiento mediante KPIs ejecutivos
+- Identificación de segmentos de clientes, canales de venta y tipos de propiedad con mayor impacto en el negocio
+- Análisis de tendencias temporales (YoY, YTD, MTD) y recurrencia de clientes mediante cohortes
+
+🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions)
+🔗 [Ver proyecto](./Dashboard%20desempeño%20comercial)
+
+---
+
+### 2️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
 - Análisis del desempeño comercial en tres países de Latinoamérica
@@ -32,7 +45,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 2️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
+### 3️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
 
 - Análisis comparativo de tasa de conversión entre versión A y B
@@ -45,7 +58,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 3️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+### 4️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
 - Análisis correlacional de comportamiento del cliente
@@ -57,7 +70,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 4️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 5️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
@@ -69,7 +82,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 5️⃣ Movilidad Urbana y Productividad Económica en LATAM  
+### 6️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
 - Análisis de la relación entre congestión urbana y PIB per cápita en ciudades latinoamericanas
@@ -80,7 +93,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 6️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 7️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
@@ -91,7 +104,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 7️⃣ Análisis del Desempeño Financiero – Adventure Works
+### 8️⃣ Análisis del Desempeño Financiero – Adventure Works
 **TripleTen Bootcamp | 2025**
 
 - Análisis de ingresos, costos y beneficio por país
