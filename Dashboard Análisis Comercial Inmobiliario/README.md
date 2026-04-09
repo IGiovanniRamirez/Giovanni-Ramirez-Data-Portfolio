@@ -179,3 +179,58 @@ El dashboard permite:
 Este proyecto demuestra cómo transformar datos transaccionales en un **sistema de análisis estratégico**, permitiendo pasar de métricas descriptivas a **insights accionables** que impulsan el crecimiento del negocio.
 
 ---
+
+Este repositorio incluye:
+
+- 📓 **Notebook (`.ipynb`)** con la documentación del proyecto
+- 📊 **Archivo Power BI (.pbix)** con el dashboard
+
+El notebook funciona como **documentación del proceso de análisis**, no como código ejecutable.
+
+---
+
+## ▶️ Cómo ejecutar el notebook
+
+El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
+
+### 🔁 Guía breve de reproducción 
+
+#### Opción 1:
+
+1. Abre el notebook directamente desde GitHub en este repositorio dando clic en el link del archivo `.ipynb`.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando clic en el icono de descargar.
+<img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+
+
+#### Opción 2:
+  
+1. Despues de abrir el archivo `.ipynb` haz clic en el botón **“Open in Colab”** (si está disponible).
+2. Si elegiste la opcion de descargar el archivo ve a 👉 https://colab.research.google.com/.
+3. Seleccionar **Upload Notebook**.
+4. Subir el archivo `.ipynb`
+5. Cargar el dataset en la ruta correspondiente.
+
+> Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
+
+---
+
+# 👀 Cómo ver el dashboard
+
+## Ver el archivo desde Google Drive
+
+Puedes acceder directamente al archivo de Power BI en el siguiente enlace:
+
+🔗  
+https://drive.google.com/file/d/1ykyBGDg-c45HCgD2l7-zlUUl6yu1UwYa/view?usp=drive_link
+
+Para visualizarlo:
+
+1. Descarga el archivo `.pbix`
+2. Abre el archivo en **Power BI Desktop**
+
+---
+# 🧑‍💻 Autor
+
+**Iván Giovanni Ramírez Correa**
+
+Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
