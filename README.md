@@ -29,7 +29,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Análisis de tendencias temporales (YoY, YTD, MTD) y recurrencia de clientes mediante cohortes
 
 🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions)
-🔗 [Ver proyecto](./Dashboard%20desempeño%20comercial)
+🔗 [Ver proyecto](./Dashboard Análisis Comercial Inmobiliario)
 
 ---
 
