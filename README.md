@@ -30,7 +30,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 - Comunicación de resultados a través de un Dashboard
 
 🛠️ **Tecnologías:** Python (Pandas, NumPy, Statsmodels), SQL, Power BI, DAX (Data Analysis Expressions)
-🔗 [Ver proyecto](./Dashboard%20Análisis%20Comercial%20Inmobiliario)
+🔗 [Ver proyecto](./RappiPlus%20de%20datos%20a%20decisiones%20de%20negocio)
 
 ---
 
