@@ -20,7 +20,21 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
+### 1️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
+**TripleTen Bootcamp | 2026**
+
+- Análisis end-to-end del negocio de suscripción, desde calidad de datos hasta impacto en conversión
+- Evaluación de revenue, costos, profit y gasto en marketing mediante KPIs ejecutivos
+- Identificación de puntos de abandono en el funnel, patrones de retención y desempeño por producto/categoría
+- Validación de cambios en el checkout mediante experimento A/B aplicando prueba estadística z-test
+- Comunicación de resultados a través de un Dashboard
+
+🛠️ **Tecnologías:** Python (Pandas, NumPy, Statsmodels), SQL, Power BI, DAX (Data Analysis Expressions)
+🔗 [Ver proyecto](./Dashboard%20Análisis%20Comercial%20Inmobiliario)
+
+---
+
+### 2️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
 **TripleTen Bootcamp | 2026**
 
 - Análisis del desempeño comercial inmobiliario a nivel de ventas, clientes y propiedades
@@ -33,7 +47,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 2️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
+### 3️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
 - Análisis del desempeño comercial en tres países de Latinoamérica
@@ -45,7 +59,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 3️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
+### 4️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
 
 - Análisis comparativo de tasa de conversión entre versión A y B
@@ -58,7 +72,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 4️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+### 5️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
 - Análisis correlacional de comportamiento del cliente
@@ -70,7 +84,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 5️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 6️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
@@ -82,7 +96,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 6️⃣ Movilidad Urbana y Productividad Económica en LATAM  
+### 7️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
 - Análisis de la relación entre congestión urbana y PIB per cápita en ciudades latinoamericanas
@@ -93,7 +107,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 7️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 8️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
@@ -104,7 +118,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 8️⃣ Análisis del Desempeño Financiero – Adventure Works
+### 9️⃣ Análisis del Desempeño Financiero – Adventure Works
 **TripleTen Bootcamp | 2025**
 
 - Análisis de ingresos, costos y beneficio por país
