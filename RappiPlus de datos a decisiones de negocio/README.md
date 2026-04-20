@@ -146,7 +146,7 @@ El proyecto se desarrolló en 6 etapas principales:
 - Prueba estadística (z-test)
 - Comparación control vs tratamiento
 
-📊 **Resultado:** No hay evidencia significativa de mejora en conversión
+📊 **Insight clave:** No hay evidencia significativa de mejora en conversión
 
 ---
 
@@ -181,21 +181,69 @@ El proyecto se desarrolló en 6 etapas principales:
 
 ---
 
-## 📌 Autor
-
-**Iván Giovanni Ramírez Correa**  
-Proyecto desarrollado como parte del bootcamp de Data Analyst 🚀
-
----
-
 ## 📎 Nota
 
 Este proyecto demuestra habilidades en:
 
-- Análisis exploratorio de datos  
-- Modelado y limpieza de datos  
-- SQL analítico  
+- Análisis exploratorio de datos 
+- Modelado y limpieza de datos 
+- SQL analítico   
 - Estadística aplicada  
 - Visualización y storytelling  
 
 👉 Enfocado en resolver problemas reales de negocio con datos.
+
+---
+
+Este repositorio incluye:
+
+- 📓 **Notebook (`.ipynb`)** con la documentación del proyecto y el código ejecutado tanto de **Phyton** como de **SQL**
+- 📊 **Archivo Power BI (.pbix)** con el dashboard
+
+---
+
+## ▶️ Cómo ejecutar el notebook
+
+El archivo **`.ipynb` ya se encuentra subido en este repositorio**, por lo que puede ejecutarse fácilmente desde GitHub o Google Colab.
+
+### 🔁 Guía breve de reproducción 
+
+#### Opción 1:
+
+1. Abre el notebook directamente desde GitHub en este repositorio dando clic en el link del archivo `.ipynb`.
+2. **Opcional:** Si quieres descargar el archivo `.ipynb` para despues ejecutarlo en un notebook como Jupyter o Colab puedes hacerlo dando clic en el icono de descargar.
+<img width="112" height="49" alt="image" src="https://github.com/user-attachments/assets/a77290eb-2da4-4384-a717-1aabc00f1d22" />
+
+
+#### Opción 2:
+  
+1. Despues de abrir el archivo `.ipynb` haz clic en el botón **“Open in Colab”** (si está disponible).
+2. Si elegiste la opcion de descargar el archivo ve a 👉 https://colab.research.google.com/.
+3. Seleccionar **Upload Notebook**.
+4. Subir el archivo `.ipynb`
+5. Cargar el dataset en la ruta correspondiente.
+
+> Google Colab no requiere instalación local y permite ejecutar el análisis de forma inmediata.
+
+---
+
+# 👀 Cómo ver el dashboard
+
+## Ver el archivo desde Google Drive
+
+Puedes acceder directamente al archivo de Power BI en el siguiente enlace:
+
+🔗  
+https://drive.google.com/file/d/17Mq9M7zs0p6qx74si-SzWF9Ryp8GzZg2/view?usp=sharing
+
+Para visualizarlo:
+
+1. Descarga el archivo `.pbix`
+2. Abre el archivo en **Power BI Desktop**
+
+---
+# 🧑‍💻 Autor
+
+**Iván Giovanni Ramírez Correa**
+
+Proyecto desarrollado como parte de formación **del Bootcamp de Data Analyst**.
