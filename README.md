@@ -14,7 +14,7 @@ Me formé como **Data Analyst en el bootcamp de TripleTen**, donde desarrollé p
 Disfruto trabajar como **puente entre negocio y analítica**: entender el problema, traducirlo en preguntas analíticas, explorar los datos y comunicar insights claros y accionables a stakeholders no técnicos.
 
 📍 **Bogotá, Colombia**  
-🔎 **Intereses:** Data Analysis · Retail · Logística · Operaciones · Customer Analytics  
+🔎 **Intereses:** Data Analysis · manufactura· Retail & E-commerce · Operaciones & Logística · Customer Analytics · Data Visualization & Storytelling · KPIs & Performance Metrics  
 
 ---
 
