@@ -7,9 +7,9 @@
 
 ## 👋 Sobre mí
 
-Soy **Data Analyst en transición desde entornos operativos e industriales**, con más de **15 años de experiencia entendiendo procesos complejos, indicadores y toma de decisiones end-to-end**. Mi motivación siempre ha sido la misma: **resolver problemas reales y mejorar resultados**, hoy apoyado en datos.
+Soy **Ingeniero Mecánico y Data Analyst junior**, con más de **15 años de experiencia entendiendo procesos complejos, indicadores y toma de decisiones end-to-end**. Mi motivación siempre ha sido la misma: **resolver problemas reales y mejorar resultados**, hoy apoyado en datos.
 
-Me formé como **Data Analyst en el bootcamp de TripleTen**, donde desarrollé proyectos prácticos utilizando **Python, SQL, análisis exploratorio de datos (EDA), visualización y definición de KPIs**, aplicados a contextos reales de **retail, logística, manufactura, producto digital, entre otros**.
+Me formé como **Data Analyst en el bootcamp de TripleTen**, donde desarrollé proyectos prácticos utilizando **Python, SQL, análisis exploratorio de datos (EDA), visualización (Power BI / Tableau)  y definición de KPIs**, aplicados a contextos reales de **retail, logística, manufactura, producto digital, entre otros**.
 
 Disfruto trabajar como **puente entre negocio y analítica**: entender el problema, traducirlo en preguntas analíticas, explorar los datos y comunicar insights claros y accionables a stakeholders no técnicos.
 
