@@ -150,7 +150,7 @@ Este análisis permitió entender que:
 
 ## 🔗 7. Enlaces
 
-- 📊 [Dashboard:](./https://public.tableau.com/app/profile/giovanni.ramirez1825/viz/Anlisisdecomercioelectrnicoydropshipping/ExecutiveOverview?publish=yes)
+- 📊 [Dashboard](./https://public.tableau.com/app/profile/giovanni.ramirez1825/viz/Anlisisdecomercioelectrnicoydropshipping/ExecutiveOverview?publish=yes)
 
 ---
 
