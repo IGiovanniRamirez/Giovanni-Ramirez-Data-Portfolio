@@ -28,7 +28,7 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 - Análisis end-to-end de rentabilidad en un negocio de e-commerce bajo el modelo dropshipping COD (Cash on Delivery)  
 - Integración de operación logística, costos de producto y marketing para evaluar profit real del negocio  
 - Identificación del impacto financiero de cancelaciones, devoluciones y pedidos no efectivos  
--- Evaluación de KPIs financieros, operativos y de marketing mediante análisis exploratorio y modelado en SQL  
+- Evaluación de KPIs financieros, operativos y de marketing mediante análisis exploratorio y modelado en SQL  
 - Desarrollo de dashboard interactivo para monitoreo de desempeño y toma de decisiones estratégicas  
 🛠️ **Tecnologías:** Python (Pandas), SQL, Tableau  
 🔗 [Ver proyecto](./Análisis%20e-commerce%20Dropshipping)
