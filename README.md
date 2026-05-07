@@ -104,11 +104,12 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 7️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
-- Análisis exploratorio del comportamiento de uso de clientes
-- Segmentación de usuarios por nivel de consumo y edad
-- Identificación de patrones, outliers e insights de negocio
-  
-🛠️ **Tecnologías:** Python (Pandas, Seaborn, Matplotlib), Jupyter Notebook
+  - Análisis exploratorio del comportamiento de clientes de telecomunicaciones mediante limpieza, validación e integración de datasets de usuarios, planes y consumo.
+  - Identificación de patrones de uso, segmentación de clientes por nivel de consumo y edad, y detección de outliers relevantes para el negocio.
+  - Evaluación de calidad de datos, tratamiento de sentinels, valores faltantes y fechas inválidas para garantizar consistencia analítica.
+  - Generación de insights y recomendaciones para optimización de planes, retención y segmentación comercial.
+
+🛠️ **Tecnologías:** Python (Pandas, NumPy, Seaborn, Matplotlib), Jupyter Notebook, Análisis Estadístico, Data Cleaning, EDA
 🔗 [Ver proyecto](./Project_ConnectaTel%20)
 
 ---
