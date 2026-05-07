@@ -88,8 +88,6 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 - Desarrollo de visualizaciones analíticas e insights ejecutivos para optimizar adquisición, conversión y estrategia digital
 - Identificación de la versión B como mejor alternativa al generar mayor conversión y revenue por usuario con resultados estadísticamente sólidos
 
-🛠️ Tecnologías: 
-
 🛠️ **Tecnologías:** Python (Pandas, SciPy, Statsmodels, Seaborn, Matplotlib), A/B Testing, Estadística Inferencial, Data Visualization
 🔗 [Ver proyecto](./Project_Landing_Experiment%20A-B)
 
