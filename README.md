@@ -90,10 +90,11 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 6️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
-- Análisis correlacional de comportamiento del cliente
-- Identificación de factores asociados al ingreso anual
-- Evaluación de engagement, suscripción y segmentación de usuarios
-
+- Análisis correlacional de comportamiento de clientes en plataforma e-commerce para identificar factores asociados al ingreso anual generado
+- Exploración y validación de variables numéricas, categóricas y binarias mediante análisis estadístico y visualización de datos
+- Evaluación de relaciones entre frecuencia de compra, visitas, publicidad dirigida, membresía premium y revenue del cliente
+- Aplicación de coeficientes de correlación (Pearson, Spearman, Punto-biserial y V de Cramér) para medir asociaciones entre variables
+- Desarrollo de visualizaciones analíticas y hallazgos orientados a retención, engagement y optimización comercial
 🛠️ **Tecnologías:** Python, Pandas, NumPy, Seaborn, Matplotlib, SciPy
 🔗 [Ver proyecto](./Project-NovaRetail)
 
