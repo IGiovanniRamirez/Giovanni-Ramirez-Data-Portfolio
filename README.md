@@ -53,12 +53,14 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 3️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
 **TripleTen Bootcamp | 2026**
 
-- Análisis del desempeño comercial inmobiliario a nivel de ventas, clientes y propiedades
-- Evaluación de ingresos, volumen de ventas, comisiones y crecimiento mediante KPIs ejecutivos
-- Identificación de segmentos de clientes, canales de venta y tipos de propiedad con mayor impacto en el negocio
-- Análisis de tendencias temporales (YoY, YTD, MTD) y recurrencia de clientes mediante cohortes
+- Desarrollo de dashboard ejecutivo y analítico en Power BI para evaluar crecimiento comercial, rentabilidad, comportamiento de clientes y desempeño inmobiliario mediante análisis temporal y cohortes
+- Limpieza y validación de datos en Power Query, corrigiendo estructuras inconsistentes, validando tipos de datos, formatos porcentuales, duplicados y calidad general de las tablas dimensionales y de hechos
+- Construcción de modelo de datos en esquema estrella con relaciones 1:* y creación de tabla calendario dinámica en DAX para habilitar análisis de inteligencia de tiempo
+- Desarrollo de medidas DAX para analizar ingresos, comisiones, ticket promedio, crecimiento YoY, métricas YTD/MTD y participación de ingresos por tipo de propiedad, canal y segmento de cliente
+- Diseño de visualizaciones interactivas para analizar tendencias de ventas, desempeño geográfico, segmentos de clientes, canales comerciales y recurrencia de compra mediante análisis de cohortes
+- Identificación de oportunidades estratégicas relacionadas con propiedades más rentables, optimización del canal corredor, crecimiento comercial, retención de clientes y estabilización de ingresos
 
-🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions)
+🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions), Data Modeling, Business Intelligence, Cohort Analysis, Time Intelligence, Data Visualization
 🔗 [Ver proyecto](./Dashboard%20Análisis%20Comercial%20Inmobiliario)
 
 ---
