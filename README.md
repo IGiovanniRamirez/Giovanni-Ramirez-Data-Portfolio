@@ -38,13 +38,14 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 2️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
 **TripleTen Bootcamp | 2026**
 
-- Análisis end-to-end del negocio de suscripción, desde calidad de datos hasta impacto en conversión
-- Evaluación de revenue, costos, profit y gasto en marketing mediante KPIs ejecutivos
-- Identificación de puntos de abandono en el funnel, patrones de retención y desempeño por producto/categoría
-- Validación de cambios en el checkout mediante experimento A/B aplicando prueba estadística z-test
-- Comunicación de resultados a través de un Dashboard
+- Desarrollo de análisis end-to-end del negocio de suscripción RappiPlus utilizando Python, SQL y Power BI para evaluar rentabilidad, conversión, retención y desempeño comercial
+- Limpieza, validación y transformación de múltiples datasets mediante Python y Pandas, corrigiendo nulos, duplicados, inconsistencias categóricas, outliers y validaciones de integridad de datos
+- Construcción de KPIs financieros y de negocio para analizar revenue, costos, marketing, profit, ticket promedio y comportamiento de ventas por producto y canal
+- Desarrollo de análisis de funnel de conversión y retención por cohortes mediante SQL para identificar fricciones en checkout, drop-off de usuarios y patrones de engagement
+- Aplicación de pruebas estadísticas A/B testing con z-test de proporciones para evaluar impacto de cambios en la UI del checkout sobre la conversión de compra
+- Diseño de dashboard ejecutivo e interactivo en Power BI con análisis temporal, rentabilidad por producto, marketing, categorías y visualización estratégica de insights de negocio
 
-🛠️ **Tecnologías:** Python (Pandas, NumPy, Statsmodels), SQL, Power BI, DAX (Data Analysis Expressions)
+🛠️ **Tecnologías:** Python (Pandas, NumPy, Statsmodels), SQL, Power BI, DAX (Data Analysis Expressions), A/B Testing, Business Intelligence, Data Visualization
 🔗 [Ver proyecto](./RappiPlus%20de%20datos%20a%20decisiones%20de%20negocio)
 
 ---
