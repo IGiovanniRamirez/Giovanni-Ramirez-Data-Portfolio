@@ -31,7 +31,7 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 -- Evaluación de KPIs financieros, operativos y de marketing mediante análisis exploratorio y modelado en SQL  
 - Desarrollo de dashboard interactivo para monitoreo de desempeño y toma de decisiones estratégicas  
 🛠️ **Tecnologías:** Python (Pandas), SQL, Tableau  
-🔗 [Ver proyecto](./RappiPlus%20de%20datos%20a%20decisiones%20de%20negocio)
+🔗 [Ver proyecto](./Análisis%20e-commerce%20Dropshipping)
 
 ---
 
