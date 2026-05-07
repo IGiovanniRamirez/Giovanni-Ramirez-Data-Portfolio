@@ -132,11 +132,16 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 9️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
-- Análisis del embudo end-to-end
-- Identificación del paso con mayor pérdida de usuarios
-- Evaluación de retención por cohortes (D7, D14, D21, D28) y segmentación por país
+- Análisis de embudo de conversión y retención de usuarios en MercadoLibre utilizando SQL y métricas de producto para identificar pérdidas críticas y oportunidades de crecimiento
+- Construcción completa del funnel de conversión desde first_visit hasta purchase mediante consultas SQL con CTEs, segmentación por eventos y cálculo de tasas de conversión
+- Identificación de la principal fuga de usuarios en la transición select_item → add_to_cart, evidenciando fricción en la etapa de decisión de compra
+- Análisis comparativo por país para evaluar diferencias en conversión y retención, detectando a Perú como mercado con mayor caída inicial y a Uruguay con menor pérdida en el primer paso
+- Cálculo de métricas de retención D7, D14, D21 y D28 para medir engagement y permanencia de usuarios activos a lo largo del tiempo
+- Desarrollo de análisis de cohortes mensuales para evaluar comportamiento de retención según fecha de registro y evolución de usuarios por generación
+- Hallazgos principales: México y Perú presentaron mejor retención, mientras Colombia mostró menor capacidad de fidelización de usuarios  
+Recomendaciones enfocadas en optimizar páginas de producto, reducir fricción en checkout e implementar incentivos y recompensas para mejorar retención y conversión  
 
-🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
+🛠️ **Tecnologías:** SQL, Análisis de Cohortes, Funnel Analysis, Métricas de Producto  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
 
 ---
 
