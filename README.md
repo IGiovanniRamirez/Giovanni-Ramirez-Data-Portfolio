@@ -65,11 +65,13 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 4️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
-- Análisis del desempeño comercial en tres países de Latinoamérica
-- Evaluación de ingresos, rentabilidad y volumen de ventas mediante KPIs ejecutivos
-- Identificación de patrones de estacionalidad, segmentos de clientes y categorías con mayor impacto en el negocio
+- Desarrollo de dashboard ejecutivo y analítico en Power BI para evaluar crecimiento, rentabilidad y desempeño comercial entre 2024 y 2025
+- Validación y transformación de datos con Power Query, construcción de KPIs financieros y análisis temporal, geográfico, estacional y por segmento de cliente
+- Diseño de visualizaciones interactivas para analizar ingresos, margen bruto, unidades vendidas, categorías, países y comportamiento comercial
+- Aplicación de narrativa SCQA y jerarquía visual para comunicar insights estratégicos y apoyar la toma de decisiones de negocio
+- Identificación de oportunidades relacionadas con mercados líderes, clientes premium, estacionalidad y optimización comercial
 
-🛠️ **Tecnologías:** Power BI, Power Query, DAX (Data Analysis Expressions)
+🛠️ **Tecnologías:** Power BI, Power Query, DAX, Business Intelligence, Data Visualization, Storytelling con Datos
 🔗 [Ver proyecto](./Dashboard%20desempeño%20comercial)
 
 ---
