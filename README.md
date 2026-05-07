@@ -117,9 +117,14 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 8️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
-- Análisis de la relación entre congestión urbana y PIB per cápita en ciudades latinoamericanas
-- Identificación de patrones, outliers y ciudades con mayor impacto económico por tráfico
-- Generación de recomendaciones para priorización de inversión en infraestructura y movilidad inteligente
+- Análisis exploratorio de movilidad urbana y productividad económica usando datos reales de TomTom Traffic Index y OECD Cities
+- Limpieza y transformación de datasets masivos con Python (Pandas), incluyendo fechas, formatos numéricos y estandarización de variables
+- Integración de indicadores de tráfico, PIB per cápita, desempleo, contaminación y población mediante procesos de agregación y merge relacional
+- Cálculo de promedios anuales de congestión y tiempos de viaje por ciudad para simplificar el análisis comparativo entre regiones
+- Visualización de patrones urbanos con boxplots, histogramas y gráficos comparativos para detectar tendencias, outliers y relaciones entre tráfico y economía
+- Identificación de megaciudades críticas como Ciudad de México, São Paulo, Bogotá y Lima por sus altos niveles de congestión y posible impacto económico
+- Conclusión principal: la congestión vehicular no depende directamente del PIB per cápita, sino de factores como tamaño poblacional, planeación urbana y calidad del transporte público
+- Generación de dataset final limpio y documentado para análisis posteriores y recomendaciones de inversión en infraestructura de movilidad inteligente  
 
 🛠️ **Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn 🔗 [Ver proyecto](./traffic-gdp-analysis)
 
