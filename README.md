@@ -95,6 +95,7 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 - Evaluación de relaciones entre frecuencia de compra, visitas, publicidad dirigida, membresía premium y revenue del cliente
 - Aplicación de coeficientes de correlación (Pearson, Spearman, Punto-biserial y V de Cramér) para medir asociaciones entre variables
 - Desarrollo de visualizaciones analíticas y hallazgos orientados a retención, engagement y optimización comercial
+  
 🛠️ **Tecnologías:** Python, Pandas, NumPy, Seaborn, Matplotlib, SciPy
 🔗 [Ver proyecto](./Project-NovaRetail)
 
