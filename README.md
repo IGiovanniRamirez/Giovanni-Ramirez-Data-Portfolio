@@ -7,7 +7,7 @@
 
 ## 👋 Sobre mí
 
-**Analista de Datos Junior** con formación en Ingeniería Mecánica, especialización en Gestión de Proyectos y MBA, con más de 15 años de experiencia en manufactura, análisis de KPIs, mejora continua y gestión de procesos.
+**Soy Analista de Datos** con formación en Ingeniería Mecánica, especialización en Gestión de Proyectos y MBA, con más de 15 años de experiencia en manufactura, análisis de KPIs, mejora continua y gestión de procesos.
 
 Actualmente oriento mi perfil hacia el análisis de datos, aplicando herramientas como **Excel, Google Sheets, SQL, Python, Power BI y Tableau** para limpiar, organizar, analizar y visualizar información mediante reportes y dashboards.
 
