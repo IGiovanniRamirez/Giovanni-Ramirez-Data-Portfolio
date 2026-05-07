@@ -77,12 +77,15 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 5️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
 
-- Análisis comparativo de tasa de conversión entre versión A y B
-- Evaluación de diferencia en gasto promedio con pruebas t
-- Validación de hipótesis mediante prueba Z y Chi-cuadrado
-- Generación de recomendaciones accionables basadas en significancia estadística
+- Análisis end-to-end de un experimento A/B en una landing page para evaluar conversión, revenue y desempeño de marketing mediante análisis estadístico y visualización de datos
+- Validación y exploración de datos experimentales con segmentación por versión de página, tráfico, dispositivo y tipo de usuario
+- Comparación del gasto promedio y tasa de conversión entre páginas A y B usando pruebas t-Student, Z-Test y Chi-cuadrado para identificar diferencias y asociaciones significativas
+- Desarrollo de visualizaciones analíticas e insights ejecutivos para optimizar adquisición, conversión y estrategia digital
+- Identificación de la versión B como mejor alternativa al generar mayor conversión y revenue por usuario con resultados estadísticamente sólidos
 
-🛠️ **Tecnologías:** Python, Pandas, SciPy, Statsmodels, Seaborn
+🛠️ Tecnologías: 
+
+🛠️ **Tecnologías:** Python (Pandas, SciPy, Statsmodels, Seaborn, Matplotlib), A/B Testing, Estadística Inferencial, Data Visualization
 🔗 [Ver proyecto](./Project_Landing_Experiment%20A-B)
 
 ---
