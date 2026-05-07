@@ -132,14 +132,12 @@ Busco aportar en equipos donde pueda transformar datos en **información clara y
 ### 9️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
-- Análisis de embudo de conversión y retención de usuarios en MercadoLibre utilizando SQL y métricas de producto para identificar pérdidas críticas y oportunidades de crecimiento
-- Construcción completa del funnel de conversión desde first_visit hasta purchase mediante consultas SQL con CTEs, segmentación por eventos y cálculo de tasas de conversión
-- Identificación de la principal fuga de usuarios en la transición select_item → add_to_cart, evidenciando fricción en la etapa de decisión de compra
-- Análisis comparativo por país para evaluar diferencias en conversión y retención, detectando a Perú como mercado con mayor caída inicial y a Uruguay con menor pérdida en el primer paso
-- Cálculo de métricas de retención D7, D14, D21 y D28 para medir engagement y permanencia de usuarios activos a lo largo del tiempo
-- Desarrollo de análisis de cohortes mensuales para evaluar comportamiento de retención según fecha de registro y evolución de usuarios por generación
-- Hallazgos principales: México y Perú presentaron mejor retención, mientras Colombia mostró menor capacidad de fidelización de usuarios  
-Recomendaciones enfocadas en optimizar páginas de producto, reducir fricción en checkout e implementar incentivos y recompensas para mejorar retención y conversión  
+- Análisis de conversión y retención de usuarios en MercadoLibre utilizando SQL, métricas de producto y análisis de cohortes para detectar pérdidas y oportunidades de crecimiento
+- Construcción del funnel desde first_visit hasta purchase mediante CTEs y cálculo de tasas de conversión por etapa
+- Identificación de la mayor fuga en select_item → add_to_cart, evidenciando fricción en la decisión de compra
+- Comparación por país mostrando a Perú con mayor caída inicial, Uruguay con menor pérdida y mejor retención en México y Perú, mientras Colombia presentó menor fidelización
+- Cálculo de retención D7, D14, D21 y D28 y desarrollo de cohortes mensuales para analizar engagement y permanencia de usuarios
+- Recomendaciones enfocadas en optimizar páginas de producto, reducir fricción en checkout e implementar incentivos y recompensas para mejorar retención y conversión
 
 🛠️ **Tecnologías:** SQL, Análisis de Cohortes, Funnel Analysis, Métricas de Producto  🔗 [Ver proyecto](./mercadolibre-funnel-analysis)
 
@@ -148,11 +146,12 @@ Recomendaciones enfocadas en optimizar páginas de producto, reducir fricción e
 ### 🔟 Análisis del Desempeño Financiero – Adventure Works
 **TripleTen Bootcamp | 2025**
 
-- Análisis de ingresos, costos y beneficio por país
-- Evaluación de rentabilidad mediante margen y ROI
-- Identificación de mercados más eficientes y optimización de inversión en marketing
+- Análisis financiero utilizando SQL para evaluar ingresos, costos, beneficio bruto, margen y ROI por país y territorio
+- Integración y limpieza de datos de ventas, productos, territorios y campañas mediante JOINs, COALESCE y validaciones QA para garantizar consistencia de la información
+- Identificación de Estados Unidos como el mercado más rentable y de Francia, Alemania y Reino Unido como regiones con campañas menos eficientes y bajo retorno financiero
+- Generación de insights estratégicos para optimizar inversión en marketing, mejorar rentabilidad y priorizar mercados con mayor potencial de crecimiento
 
-🛠️ **Tecnologías:** SQL  🔗 [Ver proyecto](./Análisis%20del%20desempeño%20financiero%20)
+🛠️ **Tecnologías:** SQL, JOINs Relacionales, KPIs Financieros, QA de Datos, ROI Analysis  🔗 [Ver proyecto](./Análisis%20del%20desempeño%20financiero%20)
 
 ---
 
