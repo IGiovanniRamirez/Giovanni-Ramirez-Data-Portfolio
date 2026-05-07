@@ -7,20 +7,35 @@
 
 ## 👋 Sobre mí
 
-Soy **Ingeniero Mecánico y Data Analyst junior**, con más de **15 años de experiencia entendiendo procesos complejos, indicadores y toma de decisiones end-to-end**. Mi motivación siempre ha sido la misma: **resolver problemas reales y mejorar resultados**, hoy apoyado en datos.
+**Analista de Datos Junior** con formación en Ingeniería Mecánica, especialización en Gestión de Proyectos y MBA, con más de 15 años de experiencia en manufactura, análisis de KPIs, mejora continua y gestión de procesos.
 
-Me formé como **Data Analyst en el bootcamp de TripleTen**, donde desarrollé proyectos prácticos utilizando **Python, SQL, análisis exploratorio de datos (EDA), visualización (Power BI / Tableau)  y definición de KPIs**, aplicados a contextos reales de **retail, logística, manufactura, producto digital, entre otros**.
+Actualmente oriento mi perfil hacia el análisis de datos, aplicando herramientas como **Excel, Google Sheets, SQL, Python, Power BI y Tableau** para limpiar, organizar, analizar y visualizar información mediante reportes y dashboards.
 
-Disfruto trabajar como **puente entre negocio y analítica**: entender el problema, traducirlo en preguntas analíticas, explorar los datos y comunicar insights claros y accionables a stakeholders no técnicos.
+He trabajado en proyectos con datasets de sectores como tecnología, e-commerce, retail, delivery, telecomunicaciones y movilidad urbana, **analizando métricas de ingresos, costos, márgenes, ventas, conversión, retención y tendencias temporales.**
+
+Busco aportar en equipos donde pueda transformar datos en **información clara y accionable para la toma de decisiones,** combinando mi experiencia en manufactura, gestión de proyectos y análisis de datos orientado al negocio.
 
 📍 **Bogotá, Colombia**  
-🔎 **Intereses:** Data Analysis · Manufactura · Retail & E-commerce · Operaciones & Logística · Customer Analytics · Data Visualization & Storytelling · KPIs & Performance Metrics  
+🔎 **Intereses:** Manufactura .  Operaciones & Logística · Consumo Masivo · Tecnología . Data Analysis · Retail & E-commerce  · Customer Analytics · Data Visualization & Storytelling · KPIs & Performance Metrics  
 
 ---
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
+### 1️⃣ Proyecto Dropshipping Profitability Analytics  
+**Proyecto Personal | 2026**
+
+- Análisis end-to-end de rentabilidad en un negocio de e-commerce bajo el modelo dropshipping COD (Cash on Delivery)  
+- Integración de operación logística, costos de producto y marketing para evaluar profit real del negocio  
+- Identificación del impacto financiero de cancelaciones, devoluciones y pedidos no efectivos  
+-- Evaluación de KPIs financieros, operativos y de marketing mediante análisis exploratorio y modelado en SQL  
+- Desarrollo de dashboard interactivo para monitoreo de desempeño y toma de decisiones estratégicas  
+🛠️ **Tecnologías:** Python (Pandas), SQL, Tableau  
+🔗 [Ver proyecto](./RappiPlus%20de%20datos%20a%20decisiones%20de%20negocio)
+
+---
+
+### 2️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
 **TripleTen Bootcamp | 2026**
 
 - Análisis end-to-end del negocio de suscripción, desde calidad de datos hasta impacto en conversión
@@ -34,7 +49,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 2️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
+### 3️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
 **TripleTen Bootcamp | 2026**
 
 - Análisis del desempeño comercial inmobiliario a nivel de ventas, clientes y propiedades
@@ -47,7 +62,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 3️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
+### 4️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
 - Análisis del desempeño comercial en tres países de Latinoamérica
@@ -59,7 +74,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 4️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
+### 5️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
 
 - Análisis comparativo de tasa de conversión entre versión A y B
@@ -72,7 +87,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 5️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+### 6️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
 - Análisis correlacional de comportamiento del cliente
@@ -84,7 +99,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 6️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 7️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
 - Análisis exploratorio del comportamiento de uso de clientes
@@ -96,7 +111,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 7️⃣ Movilidad Urbana y Productividad Económica en LATAM  
+### 8️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
 - Análisis de la relación entre congestión urbana y PIB per cápita en ciudades latinoamericanas
@@ -107,7 +122,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 8️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 9️⃣ Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis del embudo end-to-end
@@ -118,7 +133,7 @@ Disfruto trabajar como **puente entre negocio y analítica**: entender el proble
 
 ---
 
-### 9️⃣ Análisis del Desempeño Financiero – Adventure Works
+### 🔟 Análisis del Desempeño Financiero – Adventure Works
 **TripleTen Bootcamp | 2025**
 
 - Análisis de ingresos, costos y beneficio por país
