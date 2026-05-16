@@ -7,13 +7,17 @@
 
 ## 👋 Sobre mí
 
-**Soy Analista de Datos** con formación en Ingeniería Mecánica, especialización en Gestión de Proyectos y MBA, con más de 15 años de experiencia en manufactura, análisis de KPIs, mejora continua y gestión de procesos.
+**Soy Data Analyst** con formación en Ingeniería Mecánica, Especialización en Gestión de Proyectos y MBA, actualmente enfocado en análisis de datos orientado a negocio y operaciones.
+Cuento con experiencia en análisis de KPIs, mejora continua, reporting operativo y optimización de procesos en entornos industriales y de manufactura. Durante mi transición hacia Data Analytics he desarrollado proyectos utilizando SQL, Python, Power BI y Tableau para analizar métricas comerciales, funnels de conversión, retención, rentabilidad y comportamiento de usuarios.
+He trabajado en proyectos aplicando:
 
-Actualmente oriento mi perfil hacia el análisis de datos, aplicando herramientas como **Excel, Google Sheets, SQL, Python, Power BI y Tableau** para limpiar, organizar, analizar y visualizar información mediante reportes y dashboards.
+• SQL para extracción y análisis de datos
+• Python (Pandas, NumPy, Statsmodels) para limpieza, EDA y análisis estadístico
+• Power BI y Tableau para dashboards e insights accionables
+• Definición y seguimiento de KPIs
+• Funnel analysis, cohort analysis y análisis financiero/comercial
 
-He trabajado en proyectos con datasets de sectores como tecnología, e-commerce, retail, delivery, telecomunicaciones y movilidad urbana, **analizando métricas de ingresos, costos, márgenes, ventas, conversión, retención y tendencias temporales.**
-
-Busco aportar en equipos donde pueda transformar datos en **información clara y accionable para la toma de decisiones,** combinando mi experiencia en manufactura, gestión de proyectos y análisis de datos orientado al negocio.
+Me interesa aportar en roles relacionados con Data Analytics, Business Intelligence, Reporting y Operations Analytics, donde pueda combinar análisis de datos con entendimiento de procesos y negocio.
 
 📍 **Bogotá, Colombia**  
 🔎 **Intereses:** Manufactura .  Operaciones & Logística · Consumo Masivo · Tecnología . Data Analysis · Retail & E-commerce  · Customer Analytics · Data Visualization & Storytelling · KPIs & Performance Metrics  
