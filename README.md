@@ -26,20 +26,35 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ## 📊 Proyectos destacados
 
-### 1️⃣ Proyecto Dropshipping Profitability Analytics  
+### 1️⃣ Proyecto End-to-End de Analítica de Manufactura 
+
+**Proyecto Personal | 2026**
+
+- Desarrollo de una solución de Business Intelligence para una planta manufacturera mediante Python y Power BI, integrando analítica de Producción, Calidad, Mantenimiento e Inventarios.
+- Diseño de un Data Warehouse bajo arquitectura Star Schema y generación de datos sintéticos con Python para simular procesos industriales reales.
+- Construcción de KPIs operacionales como OEE, MTBF, MTTR, Reliability, FPY, DPMO, Sigma Level, Inventory Turnover y Cost of Poor Quality para evaluar el desempeño de la operación.
+- Desarrollo de un dashboard ejecutivo en Power BI con cinco módulos analíticos que permiten monitorear la productividad, confiabilidad de activos, calidad e inventarios, facilitando la identificación de oportunidades de mejora y la toma de decisiones basada en datos.
+
+🛠️ **Tecnologías:** Python (Pandas, NumPy), Power BI, DAX, Data Warehousing, Star Schema, Business Intelligence, Data Analytics, Manufacturing Analytics
+🔗 [Ver proyecto](./Análisis%20e-commerce%20Dropshipping)
+
+---
+
+### 2️⃣ Proyecto Dropshipping Profitability Analytics  
 **Proyecto Personal | 2026**
 
 - Análisis end-to-end de rentabilidad en un negocio de e-commerce bajo el modelo dropshipping COD (Cash on Delivery)  
 - Integración de operación logística, costos de producto y marketing para evaluar profit real del negocio  
 - Identificación del impacto financiero de cancelaciones, devoluciones y pedidos no efectivos  
 - Evaluación de KPIs financieros, operativos y de marketing mediante análisis exploratorio y modelado en SQL  
-- Desarrollo de dashboard interactivo para monitoreo de desempeño y toma de decisiones estratégicas  
+- Desarrollo de dashboard interactivo para monitoreo de desempeño y toma de decisiones estratégicas
+  
 🛠️ **Tecnologías:** Python (Pandas), SQL, Tableau  
 🔗 [Ver proyecto](./Análisis%20e-commerce%20Dropshipping)
 
 ---
 
-### 2️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
+### 3️⃣ Proyecto RappiPlus: De datos a decisiones de negocio
 **TripleTen Bootcamp | 2026**
 
 - Desarrollo de análisis end-to-end del negocio de suscripción RappiPlus utilizando Python, SQL y Power BI para evaluar rentabilidad, conversión, retención y desempeño comercial
@@ -54,7 +69,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 3️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
+### 4️⃣ Dashboard de Análisis Comercial Inmobiliario – Andes Capital Real Estate
 **TripleTen Bootcamp | 2026**
 
 - Desarrollo de dashboard ejecutivo y analítico en Power BI para evaluar crecimiento comercial, rentabilidad, comportamiento de clientes y desempeño inmobiliario mediante análisis temporal y cohortes
@@ -69,7 +84,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 4️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
+### 5️⃣ Dashboard de desempeño comercial 2024–2025 – Andes Retail Group
 **TripleTen Bootcamp | 2026**
 
 - Desarrollo de dashboard ejecutivo y analítico en Power BI para evaluar crecimiento, rentabilidad y desempeño comercial entre 2024 y 2025
@@ -83,7 +98,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 5️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
+### 6️⃣ Validando hipótesis de negocio con pruebas estadísticas: Experimento A/B en página de inicio
 **TripleTen Bootcamp | 2026**
 
 - Análisis end-to-end de un experimento A/B en una landing page para evaluar conversión, revenue y desempeño de marketing mediante análisis estadístico y visualización de datos
@@ -97,7 +112,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 6️⃣ Explorando Drivers de Comportamiento – NovaRetail+
+### 7️⃣ Explorando Drivers de Comportamiento – NovaRetail+
 **TripleTen Bootcamp | 2026**
 
 - Análisis correlacional de comportamiento de clientes en plataforma e-commerce para identificar factores asociados al ingreso anual generado
@@ -111,7 +126,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 7️⃣ Análisis de Uso de Clientes – ConnectaTel
+### 8️⃣ Análisis de Uso de Clientes – ConnectaTel
 **TripleTen Bootcamp | 2026**
 
   - Análisis exploratorio del comportamiento de clientes de telecomunicaciones mediante limpieza, validación e integración de datasets de usuarios, planes y consumo.
@@ -124,7 +139,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 8️⃣ Movilidad Urbana y Productividad Económica en LATAM  
+### 9️⃣ Movilidad Urbana y Productividad Económica en LATAM  
 **TripleTen Bootcamp | 2025**
 
 - Análisis exploratorio de movilidad urbana y productividad económica en ciudades latinoamericanas utilizando datos de TomTom Traffic Index y OECD Cities
@@ -139,7 +154,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 9️⃣ Análisis de Embudo y Retención – MercadoLibre  
+### 🔟Análisis de Embudo y Retención – MercadoLibre  
 **TripleTen Bootcamp | 2025**
 
 - Análisis de conversión y retención de usuarios en MercadoLibre utilizando SQL, métricas de producto y análisis de cohortes para detectar pérdidas y oportunidades de crecimiento
@@ -153,7 +168,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 
 ---
 
-### 🔟 Análisis del Desempeño Financiero – Adventure Works
+### 1️⃣1️⃣ Análisis del Desempeño Financiero – Adventure Works
 **TripleTen Bootcamp | 2025**
 
 - Análisis financiero utilizando SQL para evaluar ingresos, costos, beneficio bruto, margen y ROI por país y territorio
