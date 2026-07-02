@@ -89,11 +89,11 @@ Construcción de un dashboard ejecutivo en Power BI compuesto por cinco vistas:
 
 <img width="907" height="509" alt="image" src="https://github.com/user-attachments/assets/62c079cd-6a28-4a04-a832-7d70cc44a588" />
 
-- Quality Analytics
+- Maintenance Analytics
 
   <img width="908" height="513" alt="image" src="https://github.com/user-attachments/assets/3e76952c-93ee-4245-b1b7-ea387ec959bd" />
 
-- Maintenance Analytics
+- Quality Analytics
 
 <img width="906" height="510" alt="image" src="https://github.com/user-attachments/assets/80ca490c-4ced-4770-886d-6a8b584d7b95" />
   
