@@ -36,7 +36,7 @@ Me interesa aportar en roles relacionados con Data Analytics, Business Intellige
 - Desarrollo de un dashboard ejecutivo en Power BI con cinco módulos analíticos que permiten monitorear la productividad, confiabilidad de activos, calidad e inventarios, facilitando la identificación de oportunidades de mejora y la toma de decisiones basada en datos.
 
 🛠️ **Tecnologías:** Python (Pandas, NumPy), Power BI, DAX, Data Warehousing, Star Schema, Business Intelligence, Data Analytics, Manufacturing Analytics
-🔗 [Ver proyecto](./Análisis%20e-commerce%20Dropshipping)
+🔗 [Ver proyecto](./Analitica%20de%20manufactura)
 
 ---
 
