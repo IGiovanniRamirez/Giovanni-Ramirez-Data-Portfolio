@@ -6,9 +6,6 @@
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat&logo=googleappsscript&logoColor=white)](https://developers.google.com/apps-script)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-
-# Proyecto de portafolio: Automatización del procesamiento de novedades de nómina con Google Apps Script
-
 ## 1. INFORMACIÓN GENERAL
 
 **Nombre del proyecto:** Automatización de novedades de nómina y consolidación de horas extra
