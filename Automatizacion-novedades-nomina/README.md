@@ -262,7 +262,9 @@ La versión pública debe cumplir las siguientes condiciones:
 
 La publicación del código no implica que deban hacerse públicos los archivos de Google Sheets utilizados durante el desarrollo.
 
-## Autor y propósito
+## Autor y propósito.
+
+**Iván Giovanni Ramírez Correa**
 
 Proyecto de portafolio enfocado en **automatización de procesos, análisis de datos y mejora continua**, desarrollado para demostrar cómo las herramientas de Google Workspace pueden utilizarse para resolver problemas operativos y mejorar la trazabilidad de la información.
 
