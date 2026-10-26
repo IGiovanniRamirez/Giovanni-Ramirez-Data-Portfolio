@@ -39,24 +39,36 @@ El proyecto responde a un problema operativo real: la dependencia de tareas manu
 
 El proceso separa la automatización inicial de la revisión humana y del consolidado definitivo. Esta separación permite corregir novedades antes de generar la información final.
 
+
 ```mermaid
 flowchart TD
-    A["Archivo de marcaciones de asistencia"] --> B["Google Apps Script"]
-    C["PARAMETROS<br/>Empleados, cargos y período"] --> B
+    A["Archivo de marcaciones"]
+    C["PARAMETROS<br/>Empleados y cargos"]
+    B["Google Apps Script"]
+    D["Procesar datos<br/>y calcular horas extra"]
+    E["CONTROL<br/>Resultados y observaciones"]
+    F["Hojas individuales<br/>Revisión y correcciones"]
+    G{"¿Datos revisados?"}
+    H["TOTAL CROC<br/>Consolidado final"]
+    I["Validar consistencia<br/>de los totales"]
+    J["Reporte por empleado"]
+    K["Resumen diario"]
+    L["Detalle para auditoría"]
+    M["Power BI<br/>Análisis posterior"]
 
-    B --> D["Procesamiento y reglas de negocio"]
-    D --> E["CONTROL<br/>Resultados, observaciones y trazabilidad"]
-    E --> F["Hojas individuales<br/>Revisión y corrección manual"]
-
-    F --> G{"¿Información revisada?"}
+    A --> B
+    C --> B
+    B --> D
+    D --> E
+    E --> F
+    F --> G
     G -->|No| F
-    G -->|Sí| H["TOTAL CROC<br/>Consolidación definitiva"]
-
-    H --> I["Validación de consistencia"]
-    I --> J["Reporte por empleado"]
-    I --> K["Resumen diario"]
-    I --> L["Detalle para auditoría"]
-    J --> M["Análisis posterior en Power BI"]
+    G -->|Sí| H
+    H --> I
+    I --> J
+    I --> K
+    I --> L
+    J --> M
     K --> M
     L --> M
 ```
