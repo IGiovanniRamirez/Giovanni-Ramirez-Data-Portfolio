@@ -41,7 +41,7 @@ El proceso separa la automatización inicial de la revisión humana y del consol
 
 ```mermaid
 flowchart TD
-    A["Archivo de marcaciones de asistencia"] --> B["Google Apps Script"]
+    A[     "Archivo de marcaciones de asistencia"     ] --> B["Google Apps Script"]
     C["PARAMETROS<br/>Empleados, cargos y período"] --> B
 
     B --> D["Procesamiento y reglas de negocio"]
