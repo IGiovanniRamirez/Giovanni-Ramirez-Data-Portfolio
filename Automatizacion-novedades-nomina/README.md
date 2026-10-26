@@ -6,197 +6,170 @@
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat&logo=googleappsscript&logoColor=white)](https://developers.google.com/apps-script)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-## Descripción del proyecto
 
-Este proyecto consiste en desarrollar una solución de automatización para procesar marcaciones de asistencia, calcular novedades de horas extra y consolidar la información para su revisión antes del cierre de nómina.
+# Proyecto de portafolio: Automatización del procesamiento de novedades de nómina con Google Apps Script
 
-La solución utiliza **Google Sheets como interfaz de trabajo y Google Apps Script como motor de procesamiento**, integrando reglas de negocio, validaciones, revisión humana y controles de consistencia.
+## 1. INFORMACIÓN GENERAL
 
-El proyecto responde a un problema operativo real: la dependencia de tareas manuales para organizar información, aplicar criterios de cálculo y consolidar resultados en un entorno sin un sistema ERP especializado.
+**Nombre del proyecto:** Automatización de novedades de nómina y consolidación de horas extra
 
-> **Privacidad:** este repositorio está diseñado como proyecto de portafolio. Los datos reales de empleados, los archivos de nómina y los identificadores internos no forman parte de la versión pública.
+**Especialidad:** DA — Data Analytics
 
-## Objetivos
+**Tecnologías utilizadas:**
+- Google Sheets
+- Google Apps Script (JavaScript)
+- Google Drive
+- Preparación de datos para Power BI
 
-- Automatizar el procesamiento de archivos de marcaciones de asistencia.
-- Estandarizar la aplicación de las reglas de negocio para el cálculo de horas extra.
-- Identificar registros incompletos y situaciones que requieren revisión.
-- Mantener trazabilidad entre los datos procesados, las novedades calculadas y los resultados consolidados.
-- Permitir la revisión y corrección manual antes de generar el consolidado definitivo.
-- Preparar información estructurada para análisis posteriores en Power BI.
+**Fuente del proyecto:** Problema operativo real. Automatización desarrollada para optimizar el procesamiento de novedades de nómina en un entorno empresarial que utilizaba hojas de cálculo como herramienta principal de gestión.
 
-## Tecnologías utilizadas
+**Link a la fuente original:** No aplica un dataset público. El proyecto parte de un proceso interno de negocio y utiliza archivos de marcaciones de asistencia provenientes de un sistema biométrico implementado por la empresa para registrar las horas de entrada y salida de los empleados. Los archivos originales y los datos empresariales no se publicarán por motivos de confidencialidad.
 
-| Tecnología | Aplicación |
-|---|---|
-| Google Sheets | Interfaz operativa, parámetros, control y reportes |
-| Google Apps Script | Automatización del procesamiento y consolidación |
-| JavaScript | Desarrollo de la lógica de negocio |
-| Google Drive | Almacenamiento y acceso a archivos de entrada |
-| Power BI | Posible integración posterior para análisis y visualización |
+---
 
-## Arquitectura y flujo del sistema
+## 2. OBJETIVO
 
-El proceso separa la automatización inicial de la revisión humana y del consolidado definitivo. Esta separación permite corregir novedades antes de generar la información final.
+Desarrollar una solución de automatización que transforme las marcaciones de asistencia del personal en información estructurada para revisar, validar y consolidar las horas extra de nómina, reduciendo las tareas manuales y los errores de procesamiento.
 
+La solución permite mantener trazabilidad entre los datos de origen, las novedades calculadas, la revisión individual de los registros y el consolidado final, generando una fuente estructurada que puede utilizarse posteriormente en análisis de datos y Power BI.
 
-```mermaid
-flowchart TD
-    A["Archivo de marcaciones"]
-    C["PARAMETROS<br/>Empleados y cargos"]
-    B["Google Apps Script"]
-    D["Procesar datos<br/>y calcular horas extra"]
-    E["CONTROL<br/>Resultados y observaciones"]
-    F["Hojas individuales<br/>Revisión y correcciones"]
-    G{"¿Datos revisados?"}
-    H["TOTAL CROC<br/>Consolidado final"]
-    I["Validar consistencia<br/>de los totales"]
-    J["Reporte por empleado"]
-    K["Resumen diario"]
-    L["Detalle para auditoría"]
-    M["Power BI<br/>Análisis posterior"]
+---
 
-    A --> B
-    C --> B
-    B --> D
-    D --> E
-    E --> F
-    F --> G
-    G -->|No| F
-    G -->|Sí| H
-    H --> I
-    I --> J
-    I --> K
-    I --> L
-    J --> M
-    K --> M
-    L --> M
-```
+## 3. PLAN DE TRABAJO
 
-### Componentes principales
+### Paso 1. Exploración y levantamiento de requisitos
+
+- Analizar el proceso de recepción y procesamiento de archivos de marcaciones.
+- Identificar las tareas manuales, los errores recurrentes y las necesidades de trazabilidad.
+- Definir las reglas de negocio para calcular jornadas y horas extra según el día de la semana y el cargo.
+- Identificar las excepciones que requieren revisión humana, como marcaciones incompletas o empleados sin homologación.
+
+### Paso 2. Preparación y estructuración de los datos
+
+- Crear una hoja de parámetros para administrar empleados, nombres de hojas, áreas, cargos y estado activo.
+- Establecer un período de procesamiento configurable.
+- Normalizar nombres para facilitar la homologación entre los archivos de origen y las hojas individuales.
+- Agrupar las marcaciones por empleado y fecha.
+- Definir una estructura de control para registrar los resultados y las observaciones del procesamiento.
+
+### Paso 3. Desarrollo de la automatización
+
+- Implementar la lectura y procesamiento de los archivos de marcaciones mediante Google Apps Script.
+- Calcular las horas de entrada y salida a partir de las marcaciones válidas.
+- Aplicar reglas de redondeo al cuarto de hora y jornadas diferenciadas según el cargo y el día.
+- Calcular las horas extra y registrar las novedades en la hoja de control.
+- Automatizar la actualización de las hojas individuales de los empleados.
+- Construir un consolidado final por persona y por día, incluyendo el detalle para auditoría.
+- Crear un menú personalizado para ejecutar las principales operaciones desde Google Sheets.
+
+### Paso 4. Validación y pruebas funcionales
+
+- Verificar el tratamiento de las marcaciones completas e incompletas.
+- Validar los cálculos con casos específicos de entrada, salida, jornada y horas extra.
+- Comprobar que las correcciones manuales realizadas en las hojas individuales se reflejen en el consolidado final.
+- Conciliar los totales por persona, por día y por detalle.
+- Corregir problemas de interpretación de duraciones y desfases de fechas derivados del manejo de valores de Google Sheets.
+
+### Paso 5. Consolidación y preparación para analítica
+
+- Generar una tabla de horas extra por persona, ordenada de mayor a menor.
+- Generar una tabla diaria de horas extra y un detalle de los registros procesados.
+- Incorporar las horas en formato de duración y su equivalente decimal.
+- Organizar la información para facilitar su conexión posterior con Power BI.
+
+---
+
+## 4. PREGUNTAS CLAVE
+
+1. ¿Cómo garantizar que las reglas de negocio utilizadas para calcular las horas extra estén actualizadas y sean consistentes con las políticas de la empresa?
+
+2. ¿Cómo asegurar que los datos de entrada, las correcciones manuales y los resultados consolidados mantengan la trazabilidad necesaria para una auditoría?
+
+3. ¿Cómo escalar la solución para procesar más empleados, nuevos cargos, diferentes períodos y nuevas fuentes de información sin aumentar significativamente la complejidad del mantenimiento?
+
+---
+
+## 5. QUÉ SE HIZO Y CÓMO
+
+La solución se desarrolló utilizando Google Apps Script, integrado con Google Sheets, para automatizar un proceso que anteriormente dependía de la revisión y consolidación manual de información.
+
+La arquitectura se organizó en cuatro componentes principales:
 
 **1. PARAMETROS**
 
-Centraliza la configuración necesaria para procesar el período seleccionado, incluyendo los empleados habilitados, la correspondencia con sus hojas individuales, las áreas y los cargos.
+Centraliza la configuración del período de nómina, los empleados activos, los nombres de sus hojas individuales, las áreas y los cargos.
 
 **2. CONTROL**
 
-Registra los resultados del procesamiento automatizado y facilita el seguimiento de las marcaciones, los cálculos realizados y las observaciones asociadas a cada caso.
+Registra los resultados del procesamiento, las marcaciones originales, las horas ajustadas, las jornadas calculadas, las horas extra y las observaciones. Funciona como fuente de trazabilidad y auditoría del proceso automatizado.
 
 **3. Hojas individuales**
 
-Presentan las novedades por empleado para su revisión. Los responsables pueden validar y corregir los registros que lo requieran antes de ejecutar la consolidación final.
+Presentan las novedades de cada empleado para su revisión. Permiten corregir manualmente los registros que requieren validación antes de consolidar el resultado definitivo.
 
-**4. TOTAL CROC**
+**4. HOJA TOTAL**
 
-Genera el consolidado a partir de las hojas individuales revisadas. Organiza la información por empleado, fecha y detalle, facilitando la conciliación de los resultados.
+Consolida las horas extra a partir de las hojas individuales revisadas. Incluye el total por persona, el total diario y un detalle para auditoría.
 
-**5. Menú personalizado**
+### Decisiones técnicas relevantes
 
-Permite ejecutar las operaciones principales directamente desde Google Sheets, sin tener que abrir el editor de código para cada ejecución.
+- Se implementó la normalización de nombres para resolver diferencias de escritura, tildes y espacios.
+- Se estableció el redondeo de las marcaciones al intervalo de 15 minutos más cercano.
+- Se parametrizaron las jornadas según el cargo y el día de la semana.
+- Se incorporaron observaciones para identificar marcaciones incompletas y situaciones que requieren revisión.
+- Se separó el resultado automatizado inicial de la validación manual y del consolidado definitivo.
+- Se implementaron controles para comprobar la consistencia entre los totales por persona, por día y por detalle.
+- Se corrigió el tratamiento de las duraciones y las fechas para evitar errores de interpretación en Google Sheets.
+- Se creó un menú personalizado para ejecutar las operaciones principales sin necesidad de ingresar al editor de código.
 
-## Funcionalidades
+La solución se diseñó para que las reglas y los resultados puedan mantenerse de forma centralizada, sin depender de fórmulas manuales repetidas en todas las hojas.
 
-- **Procesamiento automatizado:** lectura y tratamiento de archivos de marcaciones mediante Google Apps Script.
-- **Homologación de empleados:** normalización de nombres para facilitar la correspondencia entre las fuentes y los registros configurados.
-- **Cálculo de novedades:** aplicación de reglas de redondeo y jornadas según los parámetros definidos para cargos y días.
-- **Detección de excepciones:** identificación de marcaciones incompletas y casos que requieren validación.
-- **Actualización de hojas individuales:** generación y actualización de la información para revisión.
-- **Consolidación final:** agrupación de las horas extra por persona y fecha a partir de los registros revisados.
-- **Trazabilidad:** conservación de información de control para facilitar la revisión de los resultados.
-- **Controles de consistencia:** comparación de los totales por empleado, por día y por detalle.
-- **Interfaz operativa:** menú personalizado para ejecutar las funciones del sistema.
-- **Preparación para analítica:** organización de los resultados en tablas que pueden utilizarse en herramientas de visualización.
+---
 
-## Reglas de negocio
+## 6. RESULTADOS
 
-Las siguientes reglas describen la lógica funcional de la solución. Antes de utilizarla en un entorno productivo, deben contrastarse con las políticas internas vigentes y las disposiciones laborales aplicables.
+### Resultados funcionales comprobados
 
-| Regla | Descripción |
-|---|---|
-| Período de procesamiento | El período se define mediante los parámetros del sistema. |
-| Homologación de empleados | Se normalizan los nombres para reducir diferencias por tildes, espacios y escritura. |
-| Redondeo de marcaciones | Las marcaciones se ajustan al intervalo de 15 minutos más cercano, de acuerdo con la lógica implementada. |
-| Jornada aplicable | El cálculo considera reglas diferenciadas según el cargo y el día de la semana. |
-| Marcaciones incompletas | Los casos con información insuficiente deben identificarse para revisión, en lugar de asumirse automáticamente como válidos. |
-| Revisión humana | Los resultados generados se revisan y pueden corregirse antes de la consolidación definitiva. |
-| Fuente del consolidado | El consolidado final se construye a partir de las hojas individuales revisadas. |
-| Validación de totales | Se comprueba la consistencia entre los totales por empleado, por día y por detalle. |
-| Trazabilidad | Las observaciones y los resultados del procesamiento permiten investigar diferencias y excepciones. |
+- Automatización del procesamiento de marcaciones y generación de novedades de nómina.
+- Actualización automatizada de las hojas individuales de los empleados.
+- Identificación de casos que requieren revisión por medio de estados y observaciones.
+- Consolidación de las horas extra por empleado y por fecha.
+- Generación de un detalle que facilita la revisión y auditoría.
+- Validación de la consistencia entre los totales consolidados.
+- Implementación de un menú personalizado para ejecutar el flujo operativo desde Google Sheets.
+- Preparación de una estructura tabular para su uso posterior en Power BI.
 
-**Importante:** esta automatización es una herramienta de apoyo al proceso de nómina. No sustituye la aprobación del responsable ni la validación legal de las reglas de cálculo. Las condiciones relativas a recargos, festivos, jornadas y horas extra deben configurarse de acuerdo con la normativa vigente y las políticas autorizadas.
+### Resultado cuantitativo de validación
 
-## Instalación y configuración
+Durante la validación de un período de nómina, el consolidado alcanzó un total de **407,75 horas extra**, equivalentes a 407 horas y 45 minutos.
 
-La solución se ejecuta en el entorno de Google Workspace. No requiere instalar un servidor propio, pero sí necesita una cuenta de Google con permisos para crear y editar hojas de cálculo y ejecutar Google Apps Script.
+Este resultado se obtuvo después de identificar empleados activos que faltaban en la configuración y corregir un desfase en la visualización de las fechas. La validación confirmó la importancia de mantener completos los parámetros y verificar la integridad de los datos antes de publicar los resultados.
 
-### Requisitos previos
+**Nota:** Este valor corresponde al período de prueba validado; no representa un indicador de ahorro de tiempo ni una medición de productividad.
 
-- Una cuenta de Google.
-- Acceso a Google Sheets, Google Drive y Google Apps Script.
-- El código fuente de la automatización.
-- Una hoja de cálculo de prueba con datos ficticios.
-- Los parámetros y las reglas de negocio documentados.
+---
 
-### Paso 1. Crear el archivo de Google Sheets
+## 7. CONCLUSIONES
 
-1. Ingresa a [Google Sheets](https://sheets.google.com/).
-2. Crea una hoja de cálculo nueva en tu cuenta.
-3. Asígnale un nombre descriptivo, por ejemplo, `Automatizacion_Novedades_Nomina_Demo`.
-4. Utiliza exclusivamente información ficticia para la configuración inicial.
+Este proyecto permitió aplicar programación y análisis de datos a un problema real de gestión operativa, demostrando que es posible automatizar procesos administrativos incluso en entornos que no cuentan con un ERP.
 
-### Paso 2. Abrir Google Apps Script
+Uno de los principales aprendizajes fue la importancia de separar el procesamiento automático, la revisión humana y la consolidación definitiva. La automatización no consiste únicamente en calcular resultados, sino también en detectar excepciones, conservar la trazabilidad y validar la integridad de la información.
 
-1. En la hoja de cálculo, abre el menú **Extensiones → Apps Script**.
-2. Se abrirá el editor de código asociado al archivo.
-3. Copia el código fuente del proyecto en el editor correspondiente.
-4. Guarda los cambios.
+También se comprobó que los detalles técnicos —como la normalización de nombres, la interpretación de duraciones y el manejo de fechas— pueden afectar significativamente la calidad de los resultados.
 
-> El código fuente debe publicarse por separado de este README. Si el repositorio todavía no contiene el código, este paso quedará pendiente hasta incorporarlo y documentar sus archivos.
+### ¿Qué mejoraría con más tiempo o recursos?
 
-### Paso 3. Preparar la estructura de hojas
+- Incorporar pruebas automatizadas para validar las principales reglas de negocio.
+- Implementar registros de ejecución y manejo de errores más detallados.
+- Ampliar las reglas configurables para festivos, excepciones y cambios de jornada, previa definición de las políticas aplicables.
+- Automatizar la recepción de archivos y el seguimiento de ejecuciones.
+- Desarrollar una integración estable con Power BI para facilitar el seguimiento de las horas extra y otros indicadores operativos.
 
-Crea y configura las hojas que utiliza la solución:
+### ¿Qué destacaría en una entrevista?
 
-- `PARAMETROS`: configuración del período, empleados y datos de referencia.
-- `CONTROL`: seguimiento del procesamiento y sus observaciones.
-- `TOTAL CROC`: consolidado final.
-- Hojas individuales: una hoja por cada empleado de prueba, con la estructura esperada por el código.
+La capacidad de identificar un problema real, traducir reglas de negocio en código, construir una solución con Google Apps Script y diseñar controles para validar la calidad de los datos. También destacaría el enfoque de mejora continua: probar, detectar inconsistencias, corregirlas y verificar el resultado antes de considerar finalizada la automatización.
 
-Los nombres de las hojas, encabezados y campos deben coincidir con los que utiliza la versión publicada del código. No se deben inventar columnas ni modificar la estructura sin verificar primero las dependencias del script.
-
-### Paso 4. Configurar los parámetros
-
-1. Registra empleados ficticios en la hoja de parámetros.
-2. Define las correspondencias con las hojas individuales.
-3. Configura el período que se utilizará en las pruebas.
-4. Revisa los cargos y las reglas de jornada aplicables.
-5. Comprueba que las referencias estén completas antes de ejecutar el procesamiento.
-
-### Paso 5. Autorizar y ejecutar el script
-
-1. Guarda el proyecto en Apps Script.
-2. Ejecuta la función de configuración inicial prevista por el código.
-3. Revisa los permisos solicitados y autoriza únicamente los necesarios para el funcionamiento esperado.
-4. Regresa a Google Sheets y actualiza la página si es necesario.
-5. Verifica que aparezca el menú personalizado de la automatización.
-6. Ejecuta primero la opción de prueba disponible en la versión publicada.
-
-Los nombres exactos de las funciones y las opciones del menú deben corresponder al código fuente incluido en el repositorio.
-
-### Paso 6. Validar los resultados
-
-Antes de considerar terminada la instalación:
-
-- Comprueba que las marcaciones de prueba se procesen correctamente.
-- Verifica los cálculos con casos de entrada y salida conocidos.
-- Prueba el tratamiento de marcaciones incompletas.
-- Revisa los resultados en `CONTROL` y en las hojas individuales.
-- Corrige las novedades de prueba que corresponda.
-- Ejecuta la consolidación final.
-- Compara los totales por empleado, por día y por detalle.
-
-**Criterio de aceptación:** el resultado se considera validado cuando las reglas de negocio se aplican correctamente y los totales consolidados coinciden con los datos revisados.
+---
 
 ## Estructura sugerida del repositorio
 
@@ -221,58 +194,6 @@ automatizacion-novedades-nomina/
 - `ejemplos/`: datos ficticios para pruebas y demostraciones.
 - `.gitignore`: reglas para evitar incluir archivos locales no destinados al repositorio.
 
-No publiques archivos reales de nómina, exportaciones de marcaciones, hojas de cálculo internas ni copias de seguridad con información personal.
-
-## Calidad de datos y controles
-
-El proyecto incorpora controles funcionales orientados a mejorar la confiabilidad del proceso:
-
-- Normalización de datos para facilitar la homologación de empleados.
-- Identificación de excepciones que requieren intervención.
-- Separación entre procesamiento automático y aprobación humana.
-- Revisión de consistencia de los resultados consolidados.
-- Trazabilidad de los datos procesados y de las observaciones.
-
-Estos controles son especialmente importantes porque un resultado técnicamente calculado no necesariamente es correcto si faltan empleados en la configuración, existen marcaciones incompletas o las reglas de negocio están desactualizadas.
-
-## Resultados y aprendizajes
-
-La solución permitió estructurar un proceso que dependía de tareas manuales mediante una combinación de automatización, revisión humana y validación de resultados.
-
-Entre los principales aprendizajes del proyecto se encuentran:
-
-- Traducir un proceso operativo en reglas de negocio verificables.
-- Utilizar JavaScript y Google Apps Script para automatizar tareas administrativas.
-- Gestionar excepciones sin perder el control sobre los registros.
-- Detectar problemas de calidad de datos y de interpretación de fechas y duraciones.
-- Diseñar controles para conciliar resultados antes de su uso.
-- Preparar datos estructurados para análisis posteriores.
-
-Los resultados cuantitativos de la operación original no se incluyen en esta versión pública por motivos de confidencialidad.
-
-## Mejoras futuras
-
-- Crear pruebas automatizadas para las reglas de cálculo.
-- Fortalecer los registros de ejecución y el manejo de errores.
-- Incorporar reglas configurables para festivos y excepciones autorizadas.
-- Automatizar la recepción y organización de archivos.
-- Incorporar indicadores de calidad y seguimiento de ejecuciones.
-- Diseñar una integración documentada con Power BI.
-- Ampliar la documentación técnica y los ejemplos de prueba.
-
-## Seguridad y privacidad
-
-La versión pública debe cumplir las siguientes condiciones:
-
-- Utilizar nombres ficticios para empleados, empresa y áreas internas.
-- No publicar documentos originales de nómina ni datos de asistencia reales.
-- No incluir contraseñas, tokens, credenciales ni claves.
-- No exponer identificadores privados de archivos o carpetas de Google Drive.
-- Revisar el código en busca de referencias a recursos internos.
-- Utilizar datos sintéticos para capturas de pantalla y demostraciones.
-- Verificar que los permisos solicitados por el script sean necesarios para sus funciones.
-
-La publicación del código no implica que deban hacerse públicos los archivos de Google Sheets utilizados durante el desarrollo.
 
 ## Autor y propósito.
 
