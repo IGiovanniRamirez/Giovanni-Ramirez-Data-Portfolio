@@ -195,36 +195,6 @@ automatizacion-novedades-nomina/
 └── .gitignore
 ```
 
-## Reglas de negocio y controles
-
-La automatización incorpora reglas para normalizar empleados, validar la estructura de los archivos, agrupar marcaciones, redondear horas y determinar la jornada esperada según el cargo y el día de la semana.
-
-También contempla una etapa de revisión humana antes de generar el consolidado definitivo. Los registros incompletos y las situaciones excepcionales deben verificarse antes de utilizar los resultados.
-
-La lógica documentada describe el comportamiento del código; no constituye una certificación de cumplimiento de la normativa laboral. Las reglas aplicables deben validarse con los responsables de nómina y actualizarse cuando cambien las políticas o las disposiciones legales.
-
-Consulta el documento completo de [reglas de negocio](docs/reglas_de_negocio.md).
-
-## Instalación y configuración
-
-La solución se ejecuta en Google Workspace y requiere una cuenta de Google con permisos para trabajar con Google Sheets, Google Drive y Google Apps Script.
-
-1. Crea una hoja de cálculo de Google Sheets para las pruebas.
-2. Abre **Extensiones → Apps Script**.
-3. Incorpora el código fuente desde [`src/codigo_automatizacion.gs`](src/codigo_automatizacion.gs).
-4. Configura las hojas y los encabezados descritos en la [documentación de arquitectura](docs/arquitectura.md).
-5. Configura los parámetros del período, los empleados ficticios y las hojas individuales.
-6. Si la implementación utiliza el servicio avanzado de Google Drive, habilítalo en el proyecto y configura la API correspondiente.
-7. Revisa los permisos solicitados y autoriza únicamente los necesarios.
-8. Ejecuta las pruebas con los [datos ficticios](ejemplos/datos_ficticios.csv), adaptándolos al formato de archivo que espera el código.
-9. Valida los resultados antes de considerar la configuración terminada.
-
-**Nota técnica:** el ejemplo público está en formato CSV, mientras que la versión del código documentada procesa archivos Excel. Para ejecutar el flujo actual, convierte los datos ficticios a un formato compatible antes de utilizarlos.
-
-Las funciones, los nombres de hojas y los parámetros deben coincidir con los definidos en la versión del código fuente que se vaya a ejecutar.
-
-
-
 ## Seguridad y privacidad
 
 Este proyecto se presenta con fines demostrativos y de portafolio.
