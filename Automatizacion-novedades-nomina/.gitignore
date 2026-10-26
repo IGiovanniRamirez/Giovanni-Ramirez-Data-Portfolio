@@ -1,0 +1,54 @@
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales y respaldos
+*.tmp
+*.temp
+*.bak
+*.old
+*.backup
+~$*
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+credentials.json
+client_secret*.json
+service-account*.json
+token.json
+secrets/
+credentials/
+
+# Archivos locales de datos potencialmente sensibles
+*.xlsx
+*.xls
+*.xlsm
+*.ods
+*.gsheet
+*.csv
+
+# Excepciones: permitir el ejemplo ficticio del portafolio
+!ejemplos/
+!ejemplos/datos_ficticios.csv
+
+# Exportaciones, logs y resultados locales
+*.log
+logs/
+exports/
+output/
+temp/
+tmp/
+
+# Paquetes y dependencias locales
+node_modules/
