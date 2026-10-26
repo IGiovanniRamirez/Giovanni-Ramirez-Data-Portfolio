@@ -32,7 +32,7 @@
 | [Arquitectura de la solución](docs/arquitectura.md) | Componentes técnicos, flujo de procesamiento y configuración. |
 | [Reglas de negocio](docs/reglas_de_negocio.md) | Reglas de cálculo, validaciones, excepciones y limitaciones conocidas. |
 | [Datos ficticios](ejemplos/datos_ficticios.csv) | Ejemplo de la estructura de entrada con información sintética. |
-| [Código fuente](src/codigo_automatizacion.gs) | Implementación de la automatización en Google Apps Script. |
+| [Código fuente]([src/codigo_automatizacion.gs](https://github.com/IGiovanniRamirez/Giovanni-Ramirez-Data-Portfolio/blob/main/Automatizacion-novedades-nomina/src/codigo_automatizacion_anominizado.gs)) | Implementación de la automatización en Google Apps Script. |
 
 ---
 
